@@ -9,4 +9,5 @@
 # その他
 ## [ssh先の場合tmux自動起動するやつ](https://gist.github.com/abcang/11bfcff22a0633600aefbb01550b8e38)
 ssh先の.bash_profileや.zshrcなどに使えば，自動でログイン後にtmuxを立ち上げてくれる．
+
 超絶便利なのでtmuxをsshで活用するなら参照すべし．
