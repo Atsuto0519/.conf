@@ -3,7 +3,7 @@
 
 # .tmux.confファイル説明
 .tmux.confに名前を変更して使用
-## [As_ratpoison](tmux/.tmux_as_ratpoison.conf)
+## [As ratpoison](tmux/.tmux_as_ratpoison.conf)
 タイル型ウィンドウマネージャのratpoisonのデフォルトキーバインドを真似た.tmux.conf
 
 # その他
