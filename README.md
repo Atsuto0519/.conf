@@ -11,3 +11,10 @@
 ssh先の.bash_profileや.zshrcなどに使えば，自動でログイン後にtmuxを立ち上げてくれる．
 
 超絶便利なのでtmuxをsshで活用するなら参照すべし．
+
+## [.gitignore](https://github.com/Atsuto0519/confdir/blob/master/.gitignore)
+毎回持っていきたいignore
+
+データなどを扱った時にdevelopディレクトリで作業すればAllOK
+
+リポジトリ直下などで作業したい場合はファイル名頭にアンダーバーをつければOK
