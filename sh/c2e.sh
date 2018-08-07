@@ -1,3 +1,6 @@
 #!/bin/sh
 
-convert $1 `sed 's/\.[^\.]*$//' $1`
+for i in "$@" ; 
+do
+    convert ${i} `echo "$i" | sed 's/\.[^\.]*$//'`.eps
+done
