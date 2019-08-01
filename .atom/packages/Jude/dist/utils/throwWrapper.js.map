@@ -1,0 +1,1 @@
+{"version":3,"file":"throwWrapper.js","sourceRoot":"","sources":["../../lib/utils/throwWrapper.ts"],"names":[],"mappings":"AAAA,YAAY,CAAA;;;;;;;;;AAEZ,iBAAS,sBAA4B,IAAI;;QACvC,IAAI,CAAC;YACH,MAAM,IAAI,EAAE,CAAA;QACd,CAAE;QAAA,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;YACX,OAAO,CAAC,KAAK,CAAC,CAAC,CAAC,CAAA;QAClB,CAAC;IACH,CAAC;CAAA,CAAA"}

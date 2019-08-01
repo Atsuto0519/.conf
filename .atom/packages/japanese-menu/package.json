@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+  "_id": "japanese-menu@1.14.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YeVr5vD1AxBDamff/hEENRfuxyA6R307vOpUE8s1JfTh5bdPkUy+VRQ5mlf7QQtU6692YAIW3xEfi4bMu0O/7A==",
+  "_location": "/japanese-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+  "_shasum": "0536764f63ae98bba16e80d067e3eda151e765a0",
+  "_spec": "https://www.atom.io/api/packages/japanese-menu/versions/1.14.0/tarball",
+  "_where": "/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-119316-13452-1udjjyu.omab",
+  "bugs": {
+    "url": "https://github.com/syon/atom-japanese-menu/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "メニューバーとコンテキストメニュー、設定画面を日本語化します。",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/syon/atom-japanese-menu",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "japanese-menu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syon/atom-japanese-menu.git"
+  },
+  "version": "1.14.0"
+}
