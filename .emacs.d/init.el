@@ -55,7 +55,7 @@
 (setq straight-use-package-by-default t)
 
 
-(package-install 'markdown-mode)
+(use-package markdown-mode)
 (autoload 'markdown-mode "markdown-mode"
   "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
@@ -83,3 +83,87 @@
 (global-set-key (kbd "<M-down>")  'windmove-down)
 (global-set-key (kbd "<M-up>")    'windmove-up)
 (global-set-key (kbd "<M-right>") 'windmove-right)
+(global-set-key (kbd "C-e")       'end-of-line)
+
+
+;; use-package
+;;; company
+(use-package company
+  :init
+  (setq company-selection-wrap-around t)
+  :bind
+  (:map company-active-map
+        ("M-n" . nil)
+        ("M-p" . nil)
+        ("C-n" . company-select-next)
+        ("C-p" . company-select-previous)
+        ("C-h" . nil))
+  :config
+  (global-company-mode))
+(use-package company-tabnine)
+(use-package company-reftex)
+(use-package company-bibtex)
+
+;;; yatex
+(use-package yatex)                ;; パッケージ読み込み
+(add-to-list 'auto-mode-alist '("\\.tex\\'" . yatex)) ;;auto-mode-alistへの追加
+(setq tex-command "platex")       ;; 自分の環境に合わせて""内を変えてください
+(setq bibtex-command "pbibtex")    ;; 自分の環境に合わせて""内を変えてください
+;;reftex-mode
+(add-hook 'yatex-mode-hook
+          #'(lambda ()
+              (reftex-mode 1)
+              (define-key reftex-mode-map
+                (concat YaTeX-prefix ">") 'YaTeX-comment-region)
+              (define-key reftex-mode-map
+                (concat YaTeX-prefix "<") 'YaTeX-uncomment-region)))
+(setq reftex-default-bibliography '("/Library/TeX/texbin/bibtex"))
+
+;;; org-mode
+(use-package org-doing)
+(use-package ox-latex-subfigure)
+(require 'ox-bibtex)
+
+;;; LaTeX 形式のファイル PDF に変換するためのコマンド
+(setq org-latex-pdf-process
+      '("platex %f"
+        "platex %f"
+        "bibtex %b"
+        "platex %f"
+        "platex %f"
+        "dvipdfmx %b.dvi"
+        "rm %b.bbl %b.dvi"))
+
+;;; \hypersetup{...} を出力しない
+(setq org-latex-with-hyperref nil)
+
+(add-to-list 'org-latex-classes
+             '("thesis"
+               "\\documentclass{jarticle}
+               [NO-PACKAGES]
+               [NO-DEFAULT-PACKAGES]
+               \n\\usepackage[dvipdfmx]{graphicx}"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+
+
+;; HTTPS 系のリポジトリ
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+;; (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
+
+;; HTTP 系のリポジトリ
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(add-to-list 'package-archives '("ELPA" . "http://tromey.com/elpa/") t)
+
+;; marmalade　は HTTP アクセスすると証明書エラーでフリーズするので注意
+;; (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
+
+(package-initialize)
+

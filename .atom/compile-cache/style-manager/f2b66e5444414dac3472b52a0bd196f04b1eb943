@@ -1,0 +1,1 @@
+{"source":".atom-runner {\n  background: #292c2f;\n  padding: 10px;\n  overflow-y: scroll;\n  color: #aaa;\n}\n.atom-runner pre {\n  background-color: #212224;\n  padding: 15px;\n}\n.atom-runner pre .stderr {\n  color: #c00;\n}\n.atom-runner .footer {\n  color: #aaa;\n  padding-top: 15px;\n  word-break: break-word;\n}\n"}

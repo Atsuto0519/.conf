@@ -1,0 +1,1 @@
+{"digest":"db20813e15dd81b429068d7aae124bc38dae3566","css":"atom-panel.modal atom-text-editor[mini].pandoc-convert-path-input {\n  margin-bottom: 0;\n}\n","imports":[{"path":"static/variables/ui-variables.less","digest":"b28ed6c38c4cfce23f83a1b012a3968aa63fce4c"},{"path":"static/variables/syntax-variables.less","digest":"812c1b7883a023f768773d14294653adcdb932d7"}],"version":1}
