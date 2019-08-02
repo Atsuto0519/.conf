@@ -1,0 +1,47 @@
+#+TITLE: 論文タイトル
+#+AUTHOR: 名前
+#+LATEX_CLASS: thesis
+#+LATEX_HEADER: \usepackage{bm}
+#+OPTIONS: toc:nil timestamp:nil
+
+
+* 序論
+  近年、○○が注目を集めている cite:abramowitz+stegun 。
+
+* 評価実験
+** 実験結果
+   テスト
+
+** アンケート結果
+   また、アンケート結果を表 [[tb:questionnaire]] にまとめた。
+
+   #+CAPTION: アンケート結果
+   #+NAME: tb:questionnaire
+   #+ATTR_LaTeX: :align |l|l|
+   |---+---|
+   | A | B |
+   |---+---|
+   | 1 | 2 |
+   | 3 | 4 |
+   |---+---|
+
+* 結論
+  [[実験結果]] 節の実験結果から
+
+  \begin{equation}
+  \bm{x}=\sqrt{b}
+  \end{equation}
+
+  であるため、
+
+  - A
+  - B
+  - C
+
+  ということがわかった。
+
+* 今後の課題
+  がんばります。
+
+
+#+BIBLIOGRAPHY: reference plain
