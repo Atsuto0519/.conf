@@ -1,0 +1,31 @@
+"*":
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "markdown-preview"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 12
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "c634ab10-fc63-4ab1-888c-dfebf31201b3"
+  "file-types":
+    "^Dockerfile\\..*$": "source.dockerfile"
+  "linter-ui-default":
+    panelHeight: 300
+  "markdown-preview-plus":
+    useGitHubStyle: true
+  "markdown-table-editor":
+    formatOnSave: true
+  runner:
+    scopes:
+      python: "python3"
+  welcome:
+    showOnStartup: false

@@ -1,1 +1,0 @@
-{"source":"atom-text-editor .highlight.ideographic-space .region:after,\natom-text-editor.editor .highlight.ideographic-space .region:after {\n  color: rgba(197, 200, 198, 0.2);\n  content: '□';\n}\n"}

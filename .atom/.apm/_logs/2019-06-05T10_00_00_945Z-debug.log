@@ -1,0 +1,2552 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/hotman/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/hotman/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   'https://www.atom.io/api/packages/markdown-it-preview/versions/0.2.5/tarball',
+1 verbose cli   '--runtime=electron',
+1 verbose cli   '--target=2.0.18',
+1 verbose cli   '--dist-url=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@6.2.0
+3 info using node@v8.9.3
+4 verbose npm-session 621f5ebc337fc4ac
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://www.atom.io/api/packages/markdown-it-preview/versions/0.2.5/tarball 1717ms
+8 silly pacote remote manifest for undefined@https://www.atom.io/api/packages/markdown-it-preview/versions/0.2.5/tarball fetched in 1750ms
+9 timing stage:loadCurrentTree Completed in 2103ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule markdown-it-preview@0.2.5 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/temp 97ms
+18 http fetch GET 200 https://registry.npmjs.org/dompurify 104ms
+19 silly pacote range manifest for dompurify@^1.0.2 fetched in 140ms
+20 silly resolveWithNewModule dompurify@1.0.10 checking installable status
+21 http fetch GET 200 https://registry.npmjs.org/wrench 135ms
+22 http fetch GET 200 https://registry.npmjs.org/lodash 138ms
+23 silly pacote range manifest for lodash@^4.17.4 fetched in 142ms
+24 silly resolveWithNewModule lodash@4.17.11 checking installable status
+25 http fetch GET 200 https://registry.npmjs.org/temp/-/temp-0.8.3.tgz 42ms
+26 http fetch GET 200 https://registry.npmjs.org/markdown-it 149ms
+27 silly pacote range manifest for wrench@^1.5.9 fetched in 149ms
+28 warn deprecated wrench@1.5.9: wrench.js is deprecated! You should check out fs-extra (https://github.com/jprichardson/node-fs-extra) for any operations you were using wrench for. Thanks for all the usage over the years.
+29 silly resolveWithNewModule wrench@1.5.9 checking installable status
+30 http fetch GET 304 https://registry.npmjs.org/fs-plus 155ms (from cache)
+31 silly pacote range manifest for markdown-it@^8.4.0 fetched in 155ms
+32 silly resolveWithNewModule markdown-it@8.4.2 checking installable status
+33 silly pacote range manifest for temp@^0.8.1 fetched in 155ms
+34 silly resolveWithNewModule temp@0.8.3 checking installable status
+35 silly pacote range manifest for fs-plus@^3.0.1 fetched in 159ms
+36 silly resolveWithNewModule fs-plus@3.1.1 checking installable status
+37 http fetch GET 200 https://registry.npmjs.org/highlights 712ms
+38 silly pacote range manifest for highlights@^3.1.1 fetched in 717ms
+39 silly resolveWithNewModule highlights@3.1.1 checking installable status
+40 http fetch GET 304 https://registry.npmjs.org/mkdirp 78ms (from cache)
+41 http fetch GET 304 https://registry.npmjs.org/underscore-plus 78ms (from cache)
+42 http fetch GET 200 https://registry.npmjs.org/async 81ms
+43 silly pacote range manifest for underscore-plus@1.x fetched in 85ms
+44 silly resolveWithNewModule underscore-plus@1.7.0 checking installable status
+45 silly pacote range manifest for mkdirp@^0.5.1 fetched in 87ms
+46 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+47 silly pacote range manifest for async@^1.5.2 fetched in 92ms
+48 silly resolveWithNewModule async@1.5.2 checking installable status
+49 http fetch GET 304 https://registry.npmjs.org/rimraf 93ms (from cache)
+50 silly pacote range manifest for rimraf@^2.5.2 fetched in 95ms
+51 silly resolveWithNewModule rimraf@2.6.3 checking installable status
+52 http fetch GET 200 https://registry.npmjs.org/minimist 29ms
+53 silly pacote version manifest for minimist@0.0.8 fetched in 34ms
+54 silly resolveWithNewModule minimist@0.0.8 checking installable status
+55 http fetch GET 200 https://registry.npmjs.org/glob 42ms
+56 silly pacote range manifest for glob@^7.1.3 fetched in 48ms
+57 silly resolveWithNewModule glob@7.1.4 checking installable status
+58 http fetch GET 304 https://registry.npmjs.org/inflight 59ms (from cache)
+59 http fetch GET 304 https://registry.npmjs.org/fs.realpath 60ms (from cache)
+60 http fetch GET 304 https://registry.npmjs.org/inherits 56ms (from cache)
+61 http fetch GET 304 https://registry.npmjs.org/minimatch 58ms (from cache)
+62 silly pacote range manifest for inflight@^1.0.4 fetched in 64ms
+63 silly resolveWithNewModule inflight@1.0.6 checking installable status
+64 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 66ms
+65 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+66 silly pacote range manifest for inherits@2 fetched in 62ms
+67 silly resolveWithNewModule inherits@2.0.3 checking installable status
+68 silly pacote range manifest for minimatch@^3.0.4 fetched in 64ms
+69 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+70 http fetch GET 304 https://registry.npmjs.org/path-is-absolute 63ms (from cache)
+71 http fetch GET 304 https://registry.npmjs.org/once 65ms (from cache)
+72 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 66ms
+73 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+74 silly pacote range manifest for once@^1.3.0 fetched in 69ms
+75 silly resolveWithNewModule once@1.4.0 checking installable status
+76 http fetch GET 304 https://registry.npmjs.org/wrappy 28ms (from cache)
+77 silly pacote range manifest for wrappy@1 fetched in 30ms
+78 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+79 http fetch GET 304 https://registry.npmjs.org/brace-expansion 33ms (from cache)
+80 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 37ms
+81 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+82 http fetch GET 304 https://registry.npmjs.org/concat-map 34ms (from cache)
+83 silly pacote version manifest for concat-map@0.0.1 fetched in 37ms
+84 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+85 http fetch GET 304 https://registry.npmjs.org/balanced-match 39ms (from cache)
+86 silly pacote range manifest for balanced-match@^1.0.0 fetched in 40ms
+87 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+88 http fetch GET 200 https://registry.npmjs.org/underscore 27ms
+89 silly pacote range manifest for underscore@^1.9.1 fetched in 30ms
+90 silly resolveWithNewModule underscore@1.9.1 checking installable status
+91 http fetch GET 304 https://registry.npmjs.org/season 41ms (from cache)
+92 silly pacote range manifest for season@^6.0.2 fetched in 44ms
+93 silly resolveWithNewModule season@6.0.2 checking installable status
+94 http fetch GET 200 https://registry.npmjs.org/yargs 45ms
+95 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-4.8.1.tgz 41ms
+96 silly pacote range manifest for yargs@^4.7.1 fetched in 95ms
+97 silly resolveWithNewModule yargs@4.8.1 checking installable status
+98 http fetch GET 200 https://registry.npmjs.org/first-mate 507ms
+99 silly pacote range manifest for first-mate@^7.0.2 fetched in 514ms
+100 silly resolveWithNewModule first-mate@7.3.0 checking installable status
+101 http fetch GET 200 https://registry.npmjs.org/first-mate-select-grammar 515ms
+102 silly pacote range manifest for first-mate-select-grammar@^1.0.1 fetched in 519ms
+103 silly resolveWithNewModule first-mate-select-grammar@1.0.2 checking installable status
+104 http fetch GET 200 https://registry.npmjs.org/event-kit 34ms
+105 http fetch GET 304 https://registry.npmjs.org/emissary 39ms (from cache)
+106 silly pacote range manifest for emissary@^1 fetched in 43ms
+107 silly resolveWithNewModule emissary@1.3.3 checking installable status
+108 http fetch GET 200 https://registry.npmjs.org/oniguruma 43ms
+109 http fetch GET 304 https://registry.npmjs.org/grim 45ms (from cache)
+110 silly pacote range manifest for event-kit@^2.2.0 fetched in 47ms
+111 silly resolveWithNewModule event-kit@2.5.3 checking installable status
+112 silly pacote version manifest for oniguruma@7.1.0 fetched in 50ms
+113 silly resolveWithNewModule oniguruma@7.1.0 checking installable status
+114 silly pacote range manifest for grim@^2.0.1 fetched in 51ms
+115 silly resolveWithNewModule grim@2.0.2 checking installable status
+116 http fetch GET 304 https://registry.npmjs.org/es6-weak-map 24ms (from cache)
+117 silly pacote range manifest for es6-weak-map@^0.1.2 fetched in 30ms
+118 silly resolveWithNewModule es6-weak-map@0.1.4 checking installable status
+119 http fetch GET 304 https://registry.npmjs.org/mixto 35ms (from cache)
+120 silly pacote range manifest for mixto@1.x fetched in 37ms
+121 silly resolveWithNewModule mixto@1.0.0 checking installable status
+122 http fetch GET 304 https://registry.npmjs.org/property-accessors 106ms (from cache)
+123 silly pacote range manifest for property-accessors@^1.1 fetched in 107ms
+124 silly resolveWithNewModule property-accessors@1.1.3 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/d 30ms (from cache)
+126 silly pacote range manifest for d@~0.1.1 fetched in 35ms
+127 silly resolveWithNewModule d@0.1.1 checking installable status
+128 http fetch GET 200 https://registry.npmjs.org/es5-ext 38ms
+129 http fetch GET 304 https://registry.npmjs.org/es6-iterator 42ms (from cache)
+130 silly pacote range manifest for es6-iterator@~0.1.3 fetched in 47ms
+131 silly resolveWithNewModule es6-iterator@0.1.3 checking installable status
+132 http fetch GET 304 https://registry.npmjs.org/es6-symbol 49ms (from cache)
+133 silly pacote range manifest for es5-ext@~0.10.6 fetched in 51ms
+134 silly resolveWithNewModule es5-ext@0.10.50 checking installable status
+135 silly pacote range manifest for es6-symbol@~2.0.1 fetched in 52ms
+136 silly resolveWithNewModule es6-symbol@2.0.1 checking installable status
+137 silly pacote range manifest for es6-iterator@~2.0.3 fetched in 5ms
+138 silly resolveWithNewModule es6-iterator@2.0.3 checking installable status
+139 silly pacote range manifest for es6-symbol@~3.1.1 fetched in 7ms
+140 silly resolveWithNewModule es6-symbol@3.1.1 checking installable status
+141 http fetch GET 304 https://registry.npmjs.org/next-tick 32ms (from cache)
+142 silly pacote range manifest for next-tick@^1.0.0 fetched in 34ms
+143 silly resolveWithNewModule next-tick@1.0.0 checking installable status
+144 silly pacote range manifest for d@1 fetched in 2ms
+145 silly resolveWithNewModule d@1.0.0 checking installable status
+146 http fetch GET 200 https://registry.npmjs.org/nan 32ms
+147 silly pacote range manifest for nan@^2.12.1 fetched in 37ms
+148 silly resolveWithNewModule nan@2.14.0 checking installable status
+149 silly pacote range manifest for yargs@^3.23.0 fetched in 5ms
+150 silly resolveWithNewModule yargs@3.32.0 checking installable status
+151 http fetch GET 304 https://registry.npmjs.org/cson-parser 38ms (from cache)
+152 silly pacote range manifest for cson-parser@^1.3.0 fetched in 41ms
+153 silly resolveWithNewModule cson-parser@1.3.5 checking installable status
+154 http fetch GET 304 https://registry.npmjs.org/coffee-script 24ms (from cache)
+155 silly pacote range manifest for coffee-script@^1.10.0 fetched in 28ms
+156 warn deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+157 silly resolveWithNewModule coffee-script@1.12.7 checking installable status
+158 http fetch GET 304 https://registry.npmjs.org/camelcase 42ms (from cache)
+159 http fetch GET 304 https://registry.npmjs.org/string-width 41ms (from cache)
+160 http fetch GET 304 https://registry.npmjs.org/decamelize 42ms (from cache)
+161 http fetch GET 304 https://registry.npmjs.org/cliui 47ms (from cache)
+162 silly pacote range manifest for camelcase@^2.0.1 fetched in 49ms
+163 silly resolveWithNewModule camelcase@2.1.1 checking installable status
+164 silly pacote range manifest for string-width@^1.0.1 fetched in 49ms
+165 silly resolveWithNewModule string-width@1.0.2 checking installable status
+166 silly pacote range manifest for decamelize@^1.1.1 fetched in 50ms
+167 silly resolveWithNewModule decamelize@1.2.0 checking installable status
+168 http fetch GET 304 https://registry.npmjs.org/window-size 52ms (from cache)
+169 silly pacote range manifest for cliui@^3.0.3 fetched in 53ms
+170 silly resolveWithNewModule cliui@3.2.0 checking installable status
+171 silly pacote range manifest for window-size@^0.1.4 fetched in 55ms
+172 silly resolveWithNewModule window-size@0.1.4 checking installable status
+173 http fetch GET 304 https://registry.npmjs.org/os-locale 57ms (from cache)
+174 http fetch GET 304 https://registry.npmjs.org/y18n 58ms (from cache)
+175 silly pacote range manifest for os-locale@^1.4.0 fetched in 60ms
+176 silly resolveWithNewModule os-locale@1.4.0 checking installable status
+177 silly pacote range manifest for y18n@^3.2.0 fetched in 60ms
+178 silly resolveWithNewModule y18n@3.2.1 checking installable status
+179 http fetch GET 304 https://registry.npmjs.org/wrap-ansi 34ms (from cache)
+180 silly pacote range manifest for wrap-ansi@^2.0.0 fetched in 36ms
+181 silly resolveWithNewModule wrap-ansi@2.1.0 checking installable status
+182 http fetch GET 304 https://registry.npmjs.org/strip-ansi 38ms (from cache)
+183 silly pacote range manifest for strip-ansi@^3.0.1 fetched in 40ms
+184 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+185 http fetch GET 304 https://registry.npmjs.org/code-point-at 27ms (from cache)
+186 silly pacote range manifest for code-point-at@^1.0.0 fetched in 29ms
+187 silly resolveWithNewModule code-point-at@1.1.0 checking installable status
+188 http fetch GET 304 https://registry.npmjs.org/is-fullwidth-code-point 36ms (from cache)
+189 silly pacote range manifest for is-fullwidth-code-point@^1.0.0 fetched in 38ms
+190 silly resolveWithNewModule is-fullwidth-code-point@1.0.0 checking installable status
+191 http fetch GET 304 https://registry.npmjs.org/number-is-nan 72ms (from cache)
+192 silly pacote range manifest for number-is-nan@^1.0.0 fetched in 73ms
+193 silly resolveWithNewModule number-is-nan@1.0.1 checking installable status
+194 http fetch GET 304 https://registry.npmjs.org/ansi-regex 22ms (from cache)
+195 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 25ms
+196 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+197 http fetch GET 200 https://registry.npmjs.org/lcid 35ms
+198 silly pacote range manifest for lcid@^1.0.0 fetched in 37ms
+199 silly resolveWithNewModule lcid@1.0.0 checking installable status
+200 http fetch GET 200 https://registry.npmjs.org/invert-kv 29ms
+201 silly pacote range manifest for invert-kv@^1.0.0 fetched in 30ms
+202 silly resolveWithNewModule invert-kv@1.0.0 checking installable status
+203 silly pacote range manifest for window-size@^0.2.0 fetched in 10ms
+204 silly resolveWithNewModule window-size@0.2.0 checking installable status
+205 http fetch GET 200 https://registry.npmjs.org/read-pkg-up 38ms
+206 http fetch GET 200 https://registry.npmjs.org/set-blocking 39ms
+207 http fetch GET 200 https://registry.npmjs.org/require-main-filename 41ms
+208 http fetch GET 200 https://registry.npmjs.org/lodash.assign 45ms
+209 http fetch GET 200 https://registry.npmjs.org/require-directory 50ms
+210 http fetch GET 200 https://registry.npmjs.org/yargs-parser 52ms
+211 http fetch GET 200 https://registry.npmjs.org/which-module 54ms
+212 silly pacote range manifest for set-blocking@^2.0.0 fetched in 63ms
+213 silly resolveWithNewModule set-blocking@2.0.0 checking installable status
+214 http fetch GET 200 https://registry.npmjs.org/get-caller-file 64ms
+215 silly pacote range manifest for lodash.assign@^4.0.3 fetched in 66ms
+216 silly resolveWithNewModule lodash.assign@4.2.0 checking installable status
+217 silly pacote range manifest for require-directory@^2.1.1 fetched in 67ms
+218 silly resolveWithNewModule require-directory@2.1.1 checking installable status
+219 silly pacote range manifest for which-module@^1.0.0 fetched in 65ms
+220 silly resolveWithNewModule which-module@1.0.0 checking installable status
+221 silly pacote range manifest for get-caller-file@^1.0.1 fetched in 80ms
+222 silly resolveWithNewModule get-caller-file@1.0.3 checking installable status
+223 http fetch GET 200 https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz 34ms
+224 http fetch GET 200 https://registry.npmjs.org/read-pkg-up/-/read-pkg-up-1.0.1.tgz 39ms
+225 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-2.4.1.tgz 27ms
+226 silly pacote range manifest for require-main-filename@^1.0.1 fetched in 89ms
+227 silly resolveWithNewModule require-main-filename@1.0.1 checking installable status
+228 silly pacote range manifest for read-pkg-up@^1.0.1 fetched in 91ms
+229 silly resolveWithNewModule read-pkg-up@1.0.1 checking installable status
+230 silly pacote range manifest for yargs-parser@^2.4.1 fetched in 90ms
+231 silly resolveWithNewModule yargs-parser@2.4.1 checking installable status
+232 http fetch GET 200 https://registry.npmjs.org/find-up 28ms
+233 http fetch GET 200 https://registry.npmjs.org/read-pkg 29ms
+234 http fetch GET 200 https://registry.npmjs.org/read-pkg/-/read-pkg-1.1.0.tgz 18ms
+235 silly pacote range manifest for read-pkg@^1.0.0 fetched in 52ms
+236 silly resolveWithNewModule read-pkg@1.1.0 checking installable status
+237 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-1.1.2.tgz 33ms
+238 silly pacote range manifest for find-up@^1.0.0 fetched in 66ms
+239 silly resolveWithNewModule find-up@1.1.2 checking installable status
+240 http fetch GET 200 https://registry.npmjs.org/path-exists 25ms
+241 http fetch GET 200 https://registry.npmjs.org/pinkie-promise 26ms
+242 silly pacote range manifest for pinkie-promise@^2.0.0 fetched in 32ms
+243 silly resolveWithNewModule pinkie-promise@2.0.1 checking installable status
+244 http fetch GET 200 https://registry.npmjs.org/path-exists/-/path-exists-2.1.0.tgz 22ms
+245 silly pacote range manifest for path-exists@^2.0.0 fetched in 52ms
+246 silly resolveWithNewModule path-exists@2.1.0 checking installable status
+247 http fetch GET 200 https://registry.npmjs.org/pinkie 23ms
+248 silly pacote range manifest for pinkie@^2.0.0 fetched in 27ms
+249 silly resolveWithNewModule pinkie@2.0.4 checking installable status
+250 http fetch GET 200 https://registry.npmjs.org/load-json-file 21ms
+251 http fetch GET 200 https://registry.npmjs.org/normalize-package-data 35ms
+252 http fetch GET 200 https://registry.npmjs.org/path-type 36ms
+253 silly pacote range manifest for normalize-package-data@^2.3.2 fetched in 41ms
+254 silly resolveWithNewModule normalize-package-data@2.5.0 checking installable status
+255 http fetch GET 200 https://registry.npmjs.org/path-type/-/path-type-1.1.0.tgz 19ms
+256 silly pacote range manifest for path-type@^1.0.0 fetched in 62ms
+257 silly resolveWithNewModule path-type@1.1.0 checking installable status
+258 http fetch GET 200 https://registry.npmjs.org/load-json-file/-/load-json-file-1.1.0.tgz 42ms
+259 silly pacote range manifest for load-json-file@^1.0.0 fetched in 67ms
+260 silly resolveWithNewModule load-json-file@1.1.0 checking installable status
+261 http fetch GET 200 https://registry.npmjs.org/strip-bom 69ms
+262 http fetch GET 200 https://registry.npmjs.org/graceful-fs 72ms
+263 http fetch GET 200 https://registry.npmjs.org/pify 73ms
+264 http fetch GET 200 https://registry.npmjs.org/parse-json 78ms
+265 silly pacote range manifest for graceful-fs@^4.1.2 fetched in 82ms
+266 silly resolveWithNewModule graceful-fs@4.1.15 checking installable status
+267 silly pacote range manifest for parse-json@^2.2.0 fetched in 83ms
+268 silly resolveWithNewModule parse-json@2.2.0 checking installable status
+269 http fetch GET 200 https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 22ms
+270 http fetch GET 200 https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz 24ms
+271 silly pacote range manifest for pify@^2.0.0 fetched in 102ms
+272 silly resolveWithNewModule pify@2.3.0 checking installable status
+273 silly pacote range manifest for strip-bom@^2.0.0 fetched in 102ms
+274 silly resolveWithNewModule strip-bom@2.0.0 checking installable status
+275 http fetch GET 200 https://registry.npmjs.org/error-ex 20ms
+276 http fetch GET 200 https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz 23ms
+277 silly pacote range manifest for error-ex@^1.2.0 fetched in 49ms
+278 silly resolveWithNewModule error-ex@1.3.2 checking installable status
+279 http fetch GET 200 https://registry.npmjs.org/is-arrayish 21ms
+280 silly pacote range manifest for is-arrayish@^0.2.1 fetched in 30ms
+281 silly resolveWithNewModule is-arrayish@0.2.1 checking installable status
+282 http fetch GET 304 https://registry.npmjs.org/is-utf8 29ms (from cache)
+283 silly pacote range manifest for is-utf8@^0.2.0 fetched in 31ms
+284 silly resolveWithNewModule is-utf8@0.2.1 checking installable status
+285 http fetch GET 200 https://registry.npmjs.org/hosted-git-info 27ms
+286 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-license 27ms
+287 http fetch GET 200 https://registry.npmjs.org/semver 33ms
+288 silly pacote range manifest for semver@2 || 3 || 4 || 5 fetched in 37ms
+289 silly resolveWithNewModule semver@5.7.0 checking installable status
+290 silly pacote range manifest for hosted-git-info@^2.1.4 fetched in 39ms
+291 silly resolveWithNewModule hosted-git-info@2.7.1 checking installable status
+292 http fetch GET 200 https://registry.npmjs.org/resolve 39ms
+293 silly pacote range manifest for validate-npm-package-license@^3.0.1 fetched in 40ms
+294 silly resolveWithNewModule validate-npm-package-license@3.0.4 checking installable status
+295 silly pacote range manifest for resolve@^1.10.0 fetched in 47ms
+296 silly resolveWithNewModule resolve@1.11.1 checking installable status
+297 http fetch GET 200 https://registry.npmjs.org/path-parse 22ms
+298 silly pacote range manifest for path-parse@^1.0.6 fetched in 29ms
+299 silly resolveWithNewModule path-parse@1.0.6 checking installable status
+300 http fetch GET 200 https://registry.npmjs.org/spdx-correct 21ms
+301 http fetch GET 200 https://registry.npmjs.org/spdx-expression-parse 22ms
+302 silly pacote range manifest for spdx-correct@^3.0.0 fetched in 28ms
+303 silly resolveWithNewModule spdx-correct@3.1.0 checking installable status
+304 silly pacote range manifest for spdx-expression-parse@^3.0.0 fetched in 28ms
+305 silly resolveWithNewModule spdx-expression-parse@3.0.0 checking installable status
+306 http fetch GET 200 https://registry.npmjs.org/spdx-license-ids 26ms
+307 silly pacote range manifest for spdx-license-ids@^3.0.0 fetched in 29ms
+308 silly resolveWithNewModule spdx-license-ids@3.0.4 checking installable status
+309 http fetch GET 200 https://registry.npmjs.org/spdx-exceptions 19ms
+310 silly pacote range manifest for spdx-exceptions@^2.1.0 fetched in 23ms
+311 silly resolveWithNewModule spdx-exceptions@2.2.0 checking installable status
+312 http fetch GET 200 https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz 22ms
+313 silly pacote range manifest for camelcase@^3.0.0 fetched in 27ms
+314 silly resolveWithNewModule camelcase@3.0.0 checking installable status
+315 http fetch GET 304 https://registry.npmjs.org/entities 38ms (from cache)
+316 http fetch GET 304 https://registry.npmjs.org/argparse 39ms (from cache)
+317 http fetch GET 304 https://registry.npmjs.org/linkify-it 39ms (from cache)
+318 silly pacote range manifest for entities@~1.1.1 fetched in 42ms
+319 silly resolveWithNewModule entities@1.1.2 checking installable status
+320 http fetch GET 304 https://registry.npmjs.org/uc.micro 42ms (from cache)
+321 http fetch GET 304 https://registry.npmjs.org/mdurl 42ms (from cache)
+322 silly pacote range manifest for argparse@^1.0.7 fetched in 43ms
+323 silly resolveWithNewModule argparse@1.0.10 checking installable status
+324 silly pacote range manifest for linkify-it@^2.0.0 fetched in 45ms
+325 silly resolveWithNewModule linkify-it@2.1.0 checking installable status
+326 silly pacote range manifest for uc.micro@^1.0.5 fetched in 46ms
+327 silly resolveWithNewModule uc.micro@1.0.6 checking installable status
+328 silly pacote range manifest for mdurl@^1.0.1 fetched in 47ms
+329 silly resolveWithNewModule mdurl@1.0.1 checking installable status
+330 http fetch GET 304 https://registry.npmjs.org/sprintf-js 32ms (from cache)
+331 silly pacote range manifest for sprintf-js@~1.0.2 fetched in 34ms
+332 silly resolveWithNewModule sprintf-js@1.0.3 checking installable status
+333 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 24ms
+334 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz 27ms
+335 silly pacote range manifest for rimraf@~2.2.6 fetched in 31ms
+336 silly resolveWithNewModule rimraf@2.2.8 checking installable status
+337 http fetch GET 200 https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz 21ms
+338 silly pacote range manifest for os-tmpdir@^1.0.0 fetched in 49ms
+339 silly resolveWithNewModule os-tmpdir@1.0.2 checking installable status
+340 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3297ms
+341 timing stage:loadIdealTree Completed in 3345ms
+342 silly currentTree apm-install-dir-11955-15218-1672uua.g1s1
+343 silly idealTree apm-install-dir-11955-15218-1672uua.g1s1
+343 silly idealTree `-- markdown-it-preview@0.2.5
+343 silly idealTree   +-- ansi-regex@2.1.1
+343 silly idealTree   +-- argparse@1.0.10
+343 silly idealTree   +-- async@1.5.2
+343 silly idealTree   +-- balanced-match@1.0.0
+343 silly idealTree   +-- brace-expansion@1.1.11
+343 silly idealTree   +-- camelcase@2.1.1
+343 silly idealTree   +-- cliui@3.2.0
+343 silly idealTree   +-- code-point-at@1.1.0
+343 silly idealTree   +-- coffee-script@1.12.7
+343 silly idealTree   +-- concat-map@0.0.1
+343 silly idealTree   +-- cson-parser@1.3.5
+343 silly idealTree   +-- d@0.1.1
+343 silly idealTree   +-- decamelize@1.2.0
+343 silly idealTree   +-- dompurify@1.0.10
+343 silly idealTree   +-- emissary@1.3.3
+343 silly idealTree   +-- entities@1.1.2
+343 silly idealTree   +-- error-ex@1.3.2
+343 silly idealTree   +-- es5-ext@0.10.50
+343 silly idealTree   | +-- d@1.0.0
+343 silly idealTree   | +-- es6-iterator@2.0.3
+343 silly idealTree   | `-- es6-symbol@3.1.1
+343 silly idealTree   +-- es6-iterator@0.1.3
+343 silly idealTree   +-- es6-symbol@2.0.1
+343 silly idealTree   +-- es6-weak-map@0.1.4
+343 silly idealTree   +-- event-kit@2.5.3
+343 silly idealTree   +-- find-up@1.1.2
+343 silly idealTree   +-- first-mate-select-grammar@1.0.2
+343 silly idealTree   +-- first-mate@7.3.0
+343 silly idealTree   +-- fs-plus@3.1.1
+343 silly idealTree   +-- fs.realpath@1.0.0
+343 silly idealTree   +-- get-caller-file@1.0.3
+343 silly idealTree   +-- glob@7.1.4
+343 silly idealTree   +-- graceful-fs@4.1.15
+343 silly idealTree   +-- grim@2.0.2
+343 silly idealTree   +-- highlights@3.1.1
+343 silly idealTree   +-- hosted-git-info@2.7.1
+343 silly idealTree   +-- inflight@1.0.6
+343 silly idealTree   +-- inherits@2.0.3
+343 silly idealTree   +-- invert-kv@1.0.0
+343 silly idealTree   +-- is-arrayish@0.2.1
+343 silly idealTree   +-- is-fullwidth-code-point@1.0.0
+343 silly idealTree   +-- is-utf8@0.2.1
+343 silly idealTree   +-- lcid@1.0.0
+343 silly idealTree   +-- linkify-it@2.1.0
+343 silly idealTree   +-- load-json-file@1.1.0
+343 silly idealTree   +-- lodash.assign@4.2.0
+343 silly idealTree   +-- lodash@4.17.11
+343 silly idealTree   +-- markdown-it@8.4.2
+343 silly idealTree   +-- mdurl@1.0.1
+343 silly idealTree   +-- minimatch@3.0.4
+343 silly idealTree   +-- minimist@0.0.8
+343 silly idealTree   +-- mixto@1.0.0
+343 silly idealTree   +-- mkdirp@0.5.1
+343 silly idealTree   +-- nan@2.14.0
+343 silly idealTree   +-- next-tick@1.0.0
+343 silly idealTree   +-- normalize-package-data@2.5.0
+343 silly idealTree   +-- number-is-nan@1.0.1
+343 silly idealTree   +-- once@1.4.0
+343 silly idealTree   +-- oniguruma@7.1.0
+343 silly idealTree   +-- os-locale@1.4.0
+343 silly idealTree   +-- os-tmpdir@1.0.2
+343 silly idealTree   +-- parse-json@2.2.0
+343 silly idealTree   +-- path-exists@2.1.0
+343 silly idealTree   +-- path-is-absolute@1.0.1
+343 silly idealTree   +-- path-parse@1.0.6
+343 silly idealTree   +-- path-type@1.1.0
+343 silly idealTree   +-- pify@2.3.0
+343 silly idealTree   +-- pinkie-promise@2.0.1
+343 silly idealTree   +-- pinkie@2.0.4
+343 silly idealTree   +-- property-accessors@1.1.3
+343 silly idealTree   +-- read-pkg-up@1.0.1
+343 silly idealTree   +-- read-pkg@1.1.0
+343 silly idealTree   +-- require-directory@2.1.1
+343 silly idealTree   +-- require-main-filename@1.0.1
+343 silly idealTree   +-- resolve@1.11.1
+343 silly idealTree   +-- rimraf@2.6.3
+343 silly idealTree   +-- season@6.0.2
+343 silly idealTree   | `-- yargs@3.32.0
+343 silly idealTree   +-- semver@5.7.0
+343 silly idealTree   +-- set-blocking@2.0.0
+343 silly idealTree   +-- spdx-correct@3.1.0
+343 silly idealTree   +-- spdx-exceptions@2.2.0
+343 silly idealTree   +-- spdx-expression-parse@3.0.0
+343 silly idealTree   +-- spdx-license-ids@3.0.4
+343 silly idealTree   +-- sprintf-js@1.0.3
+343 silly idealTree   +-- string-width@1.0.2
+343 silly idealTree   +-- strip-ansi@3.0.1
+343 silly idealTree   +-- strip-bom@2.0.0
+343 silly idealTree   +-- temp@0.8.3
+343 silly idealTree   | `-- rimraf@2.2.8
+343 silly idealTree   +-- uc.micro@1.0.6
+343 silly idealTree   +-- underscore-plus@1.7.0
+343 silly idealTree   +-- underscore@1.9.1
+343 silly idealTree   +-- validate-npm-package-license@3.0.4
+343 silly idealTree   +-- which-module@1.0.0
+343 silly idealTree   +-- window-size@0.1.4
+343 silly idealTree   +-- wrap-ansi@2.1.0
+343 silly idealTree   +-- wrappy@1.0.2
+343 silly idealTree   +-- wrench@1.5.9
+343 silly idealTree   +-- y18n@3.2.1
+343 silly idealTree   +-- yargs-parser@2.4.1
+343 silly idealTree   | `-- camelcase@3.0.0
+343 silly idealTree   `-- yargs@4.8.1
+343 silly idealTree     `-- window-size@0.2.0
+344 silly install generateActionsToTake
+345 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+346 timing stage:generateActionsToTake Completed in 31ms
+347 silly diffTrees action count 105
+348 silly diffTrees add ansi-regex@2.1.1
+349 silly diffTrees add async@1.5.2
+350 silly diffTrees add balanced-match@1.0.0
+351 silly diffTrees add camelcase@2.1.1
+352 silly diffTrees add code-point-at@1.1.0
+353 silly diffTrees add coffee-script@1.12.7
+354 silly diffTrees add concat-map@0.0.1
+355 silly diffTrees add brace-expansion@1.1.11
+356 silly diffTrees add cson-parser@1.3.5
+357 silly diffTrees add decamelize@1.2.0
+358 silly diffTrees add entities@1.1.2
+359 silly diffTrees add event-kit@2.5.3
+360 silly diffTrees add fs.realpath@1.0.0
+361 silly diffTrees add get-caller-file@1.0.3
+362 silly diffTrees add graceful-fs@4.1.15
+363 silly diffTrees add grim@2.0.2
+364 silly diffTrees add hosted-git-info@2.7.1
+365 silly diffTrees add inherits@2.0.3
+366 silly diffTrees add invert-kv@1.0.0
+367 silly diffTrees add is-arrayish@0.2.1
+368 silly diffTrees add error-ex@1.3.2
+369 silly diffTrees add is-utf8@0.2.1
+370 silly diffTrees add lcid@1.0.0
+371 silly diffTrees add lodash@4.17.11
+372 silly diffTrees add first-mate-select-grammar@1.0.2
+373 silly diffTrees add lodash.assign@4.2.0
+374 silly diffTrees add mdurl@1.0.1
+375 silly diffTrees add minimatch@3.0.4
+376 silly diffTrees add minimist@0.0.8
+377 silly diffTrees add mixto@1.0.0
+378 silly diffTrees add mkdirp@0.5.1
+379 silly diffTrees add nan@2.14.0
+380 silly diffTrees add next-tick@1.0.0
+381 silly diffTrees add es5-ext@0.10.50
+382 silly diffTrees add d@0.1.1
+383 silly diffTrees add d@1.0.0
+384 silly diffTrees add es6-symbol@3.1.1
+385 silly diffTrees add es6-iterator@2.0.3
+386 silly diffTrees add es6-symbol@2.0.1
+387 silly diffTrees add es6-iterator@0.1.3
+388 silly diffTrees add es6-weak-map@0.1.4
+389 silly diffTrees add number-is-nan@1.0.1
+390 silly diffTrees add is-fullwidth-code-point@1.0.0
+391 silly diffTrees add oniguruma@7.1.0
+392 silly diffTrees add os-locale@1.4.0
+393 silly diffTrees add os-tmpdir@1.0.2
+394 silly diffTrees add parse-json@2.2.0
+395 silly diffTrees add path-is-absolute@1.0.1
+396 silly diffTrees add path-parse@1.0.6
+397 silly diffTrees add pify@2.3.0
+398 silly diffTrees add pinkie@2.0.4
+399 silly diffTrees add pinkie-promise@2.0.1
+400 silly diffTrees add path-exists@2.1.0
+401 silly diffTrees add find-up@1.1.2
+402 silly diffTrees add path-type@1.1.0
+403 silly diffTrees add property-accessors@1.1.3
+404 silly diffTrees add require-directory@2.1.1
+405 silly diffTrees add require-main-filename@1.0.1
+406 silly diffTrees add resolve@1.11.1
+407 silly diffTrees add semver@5.7.0
+408 silly diffTrees add set-blocking@2.0.0
+409 silly diffTrees add spdx-exceptions@2.2.0
+410 silly diffTrees add spdx-license-ids@3.0.4
+411 silly diffTrees add spdx-expression-parse@3.0.0
+412 silly diffTrees add spdx-correct@3.1.0
+413 silly diffTrees add sprintf-js@1.0.3
+414 silly diffTrees add argparse@1.0.10
+415 silly diffTrees add strip-ansi@3.0.1
+416 silly diffTrees add string-width@1.0.2
+417 silly diffTrees add strip-bom@2.0.0
+418 silly diffTrees add load-json-file@1.1.0
+419 silly diffTrees add rimraf@2.2.8
+420 silly diffTrees add uc.micro@1.0.6
+421 silly diffTrees add linkify-it@2.1.0
+422 silly diffTrees add underscore@1.9.1
+423 silly diffTrees add underscore-plus@1.7.0
+424 silly diffTrees add emissary@1.3.3
+425 silly diffTrees add validate-npm-package-license@3.0.4
+426 silly diffTrees add normalize-package-data@2.5.0
+427 silly diffTrees add read-pkg@1.1.0
+428 silly diffTrees add read-pkg-up@1.0.1
+429 silly diffTrees add which-module@1.0.0
+430 silly diffTrees add window-size@0.1.4
+431 silly diffTrees add wrap-ansi@2.1.0
+432 silly diffTrees add cliui@3.2.0
+433 silly diffTrees add wrappy@1.0.2
+434 silly diffTrees add once@1.4.0
+435 silly diffTrees add inflight@1.0.6
+436 silly diffTrees add glob@7.1.4
+437 silly diffTrees add rimraf@2.6.3
+438 silly diffTrees add fs-plus@3.1.1
+439 silly diffTrees add y18n@3.2.1
+440 silly diffTrees add yargs@3.32.0
+441 silly diffTrees add season@6.0.2
+442 silly diffTrees add first-mate@7.3.0
+443 silly diffTrees add camelcase@3.0.0
+444 silly diffTrees add yargs-parser@2.4.1
+445 silly diffTrees add window-size@0.2.0
+446 silly diffTrees add yargs@4.8.1
+447 silly diffTrees add dompurify@1.0.10
+448 silly diffTrees add highlights@3.1.1
+449 silly diffTrees add markdown-it@8.4.2
+450 silly diffTrees add temp@0.8.3
+451 silly diffTrees add wrench@1.5.9
+452 silly diffTrees add markdown-it-preview@0.2.5
+453 silly decomposeActions action count 840
+454 silly decomposeActions fetch ansi-regex@2.1.1
+455 silly decomposeActions extract ansi-regex@2.1.1
+456 silly decomposeActions preinstall ansi-regex@2.1.1
+457 silly decomposeActions build ansi-regex@2.1.1
+458 silly decomposeActions install ansi-regex@2.1.1
+459 silly decomposeActions postinstall ansi-regex@2.1.1
+460 silly decomposeActions finalize ansi-regex@2.1.1
+461 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+462 silly decomposeActions fetch async@1.5.2
+463 silly decomposeActions extract async@1.5.2
+464 silly decomposeActions preinstall async@1.5.2
+465 silly decomposeActions build async@1.5.2
+466 silly decomposeActions install async@1.5.2
+467 silly decomposeActions postinstall async@1.5.2
+468 silly decomposeActions finalize async@1.5.2
+469 silly decomposeActions refresh-package-json async@1.5.2
+470 silly decomposeActions fetch balanced-match@1.0.0
+471 silly decomposeActions extract balanced-match@1.0.0
+472 silly decomposeActions preinstall balanced-match@1.0.0
+473 silly decomposeActions build balanced-match@1.0.0
+474 silly decomposeActions install balanced-match@1.0.0
+475 silly decomposeActions postinstall balanced-match@1.0.0
+476 silly decomposeActions finalize balanced-match@1.0.0
+477 silly decomposeActions refresh-package-json balanced-match@1.0.0
+478 silly decomposeActions fetch camelcase@2.1.1
+479 silly decomposeActions extract camelcase@2.1.1
+480 silly decomposeActions preinstall camelcase@2.1.1
+481 silly decomposeActions build camelcase@2.1.1
+482 silly decomposeActions install camelcase@2.1.1
+483 silly decomposeActions postinstall camelcase@2.1.1
+484 silly decomposeActions finalize camelcase@2.1.1
+485 silly decomposeActions refresh-package-json camelcase@2.1.1
+486 silly decomposeActions fetch code-point-at@1.1.0
+487 silly decomposeActions extract code-point-at@1.1.0
+488 silly decomposeActions preinstall code-point-at@1.1.0
+489 silly decomposeActions build code-point-at@1.1.0
+490 silly decomposeActions install code-point-at@1.1.0
+491 silly decomposeActions postinstall code-point-at@1.1.0
+492 silly decomposeActions finalize code-point-at@1.1.0
+493 silly decomposeActions refresh-package-json code-point-at@1.1.0
+494 silly decomposeActions fetch coffee-script@1.12.7
+495 silly decomposeActions extract coffee-script@1.12.7
+496 silly decomposeActions preinstall coffee-script@1.12.7
+497 silly decomposeActions build coffee-script@1.12.7
+498 silly decomposeActions install coffee-script@1.12.7
+499 silly decomposeActions postinstall coffee-script@1.12.7
+500 silly decomposeActions finalize coffee-script@1.12.7
+501 silly decomposeActions refresh-package-json coffee-script@1.12.7
+502 silly decomposeActions fetch concat-map@0.0.1
+503 silly decomposeActions extract concat-map@0.0.1
+504 silly decomposeActions preinstall concat-map@0.0.1
+505 silly decomposeActions build concat-map@0.0.1
+506 silly decomposeActions install concat-map@0.0.1
+507 silly decomposeActions postinstall concat-map@0.0.1
+508 silly decomposeActions finalize concat-map@0.0.1
+509 silly decomposeActions refresh-package-json concat-map@0.0.1
+510 silly decomposeActions fetch brace-expansion@1.1.11
+511 silly decomposeActions extract brace-expansion@1.1.11
+512 silly decomposeActions preinstall brace-expansion@1.1.11
+513 silly decomposeActions build brace-expansion@1.1.11
+514 silly decomposeActions install brace-expansion@1.1.11
+515 silly decomposeActions postinstall brace-expansion@1.1.11
+516 silly decomposeActions finalize brace-expansion@1.1.11
+517 silly decomposeActions refresh-package-json brace-expansion@1.1.11
+518 silly decomposeActions fetch cson-parser@1.3.5
+519 silly decomposeActions extract cson-parser@1.3.5
+520 silly decomposeActions preinstall cson-parser@1.3.5
+521 silly decomposeActions build cson-parser@1.3.5
+522 silly decomposeActions install cson-parser@1.3.5
+523 silly decomposeActions postinstall cson-parser@1.3.5
+524 silly decomposeActions finalize cson-parser@1.3.5
+525 silly decomposeActions refresh-package-json cson-parser@1.3.5
+526 silly decomposeActions fetch decamelize@1.2.0
+527 silly decomposeActions extract decamelize@1.2.0
+528 silly decomposeActions preinstall decamelize@1.2.0
+529 silly decomposeActions build decamelize@1.2.0
+530 silly decomposeActions install decamelize@1.2.0
+531 silly decomposeActions postinstall decamelize@1.2.0
+532 silly decomposeActions finalize decamelize@1.2.0
+533 silly decomposeActions refresh-package-json decamelize@1.2.0
+534 silly decomposeActions fetch entities@1.1.2
+535 silly decomposeActions extract entities@1.1.2
+536 silly decomposeActions preinstall entities@1.1.2
+537 silly decomposeActions build entities@1.1.2
+538 silly decomposeActions install entities@1.1.2
+539 silly decomposeActions postinstall entities@1.1.2
+540 silly decomposeActions finalize entities@1.1.2
+541 silly decomposeActions refresh-package-json entities@1.1.2
+542 silly decomposeActions fetch event-kit@2.5.3
+543 silly decomposeActions extract event-kit@2.5.3
+544 silly decomposeActions preinstall event-kit@2.5.3
+545 silly decomposeActions build event-kit@2.5.3
+546 silly decomposeActions install event-kit@2.5.3
+547 silly decomposeActions postinstall event-kit@2.5.3
+548 silly decomposeActions finalize event-kit@2.5.3
+549 silly decomposeActions refresh-package-json event-kit@2.5.3
+550 silly decomposeActions fetch fs.realpath@1.0.0
+551 silly decomposeActions extract fs.realpath@1.0.0
+552 silly decomposeActions preinstall fs.realpath@1.0.0
+553 silly decomposeActions build fs.realpath@1.0.0
+554 silly decomposeActions install fs.realpath@1.0.0
+555 silly decomposeActions postinstall fs.realpath@1.0.0
+556 silly decomposeActions finalize fs.realpath@1.0.0
+557 silly decomposeActions refresh-package-json fs.realpath@1.0.0
+558 silly decomposeActions fetch get-caller-file@1.0.3
+559 silly decomposeActions extract get-caller-file@1.0.3
+560 silly decomposeActions preinstall get-caller-file@1.0.3
+561 silly decomposeActions build get-caller-file@1.0.3
+562 silly decomposeActions install get-caller-file@1.0.3
+563 silly decomposeActions postinstall get-caller-file@1.0.3
+564 silly decomposeActions finalize get-caller-file@1.0.3
+565 silly decomposeActions refresh-package-json get-caller-file@1.0.3
+566 silly decomposeActions fetch graceful-fs@4.1.15
+567 silly decomposeActions extract graceful-fs@4.1.15
+568 silly decomposeActions preinstall graceful-fs@4.1.15
+569 silly decomposeActions build graceful-fs@4.1.15
+570 silly decomposeActions install graceful-fs@4.1.15
+571 silly decomposeActions postinstall graceful-fs@4.1.15
+572 silly decomposeActions finalize graceful-fs@4.1.15
+573 silly decomposeActions refresh-package-json graceful-fs@4.1.15
+574 silly decomposeActions fetch grim@2.0.2
+575 silly decomposeActions extract grim@2.0.2
+576 silly decomposeActions preinstall grim@2.0.2
+577 silly decomposeActions build grim@2.0.2
+578 silly decomposeActions install grim@2.0.2
+579 silly decomposeActions postinstall grim@2.0.2
+580 silly decomposeActions finalize grim@2.0.2
+581 silly decomposeActions refresh-package-json grim@2.0.2
+582 silly decomposeActions fetch hosted-git-info@2.7.1
+583 silly decomposeActions extract hosted-git-info@2.7.1
+584 silly decomposeActions preinstall hosted-git-info@2.7.1
+585 silly decomposeActions build hosted-git-info@2.7.1
+586 silly decomposeActions install hosted-git-info@2.7.1
+587 silly decomposeActions postinstall hosted-git-info@2.7.1
+588 silly decomposeActions finalize hosted-git-info@2.7.1
+589 silly decomposeActions refresh-package-json hosted-git-info@2.7.1
+590 silly decomposeActions fetch inherits@2.0.3
+591 silly decomposeActions extract inherits@2.0.3
+592 silly decomposeActions preinstall inherits@2.0.3
+593 silly decomposeActions build inherits@2.0.3
+594 silly decomposeActions install inherits@2.0.3
+595 silly decomposeActions postinstall inherits@2.0.3
+596 silly decomposeActions finalize inherits@2.0.3
+597 silly decomposeActions refresh-package-json inherits@2.0.3
+598 silly decomposeActions fetch invert-kv@1.0.0
+599 silly decomposeActions extract invert-kv@1.0.0
+600 silly decomposeActions preinstall invert-kv@1.0.0
+601 silly decomposeActions build invert-kv@1.0.0
+602 silly decomposeActions install invert-kv@1.0.0
+603 silly decomposeActions postinstall invert-kv@1.0.0
+604 silly decomposeActions finalize invert-kv@1.0.0
+605 silly decomposeActions refresh-package-json invert-kv@1.0.0
+606 silly decomposeActions fetch is-arrayish@0.2.1
+607 silly decomposeActions extract is-arrayish@0.2.1
+608 silly decomposeActions preinstall is-arrayish@0.2.1
+609 silly decomposeActions build is-arrayish@0.2.1
+610 silly decomposeActions install is-arrayish@0.2.1
+611 silly decomposeActions postinstall is-arrayish@0.2.1
+612 silly decomposeActions finalize is-arrayish@0.2.1
+613 silly decomposeActions refresh-package-json is-arrayish@0.2.1
+614 silly decomposeActions fetch error-ex@1.3.2
+615 silly decomposeActions extract error-ex@1.3.2
+616 silly decomposeActions preinstall error-ex@1.3.2
+617 silly decomposeActions build error-ex@1.3.2
+618 silly decomposeActions install error-ex@1.3.2
+619 silly decomposeActions postinstall error-ex@1.3.2
+620 silly decomposeActions finalize error-ex@1.3.2
+621 silly decomposeActions refresh-package-json error-ex@1.3.2
+622 silly decomposeActions fetch is-utf8@0.2.1
+623 silly decomposeActions extract is-utf8@0.2.1
+624 silly decomposeActions preinstall is-utf8@0.2.1
+625 silly decomposeActions build is-utf8@0.2.1
+626 silly decomposeActions install is-utf8@0.2.1
+627 silly decomposeActions postinstall is-utf8@0.2.1
+628 silly decomposeActions finalize is-utf8@0.2.1
+629 silly decomposeActions refresh-package-json is-utf8@0.2.1
+630 silly decomposeActions fetch lcid@1.0.0
+631 silly decomposeActions extract lcid@1.0.0
+632 silly decomposeActions preinstall lcid@1.0.0
+633 silly decomposeActions build lcid@1.0.0
+634 silly decomposeActions install lcid@1.0.0
+635 silly decomposeActions postinstall lcid@1.0.0
+636 silly decomposeActions finalize lcid@1.0.0
+637 silly decomposeActions refresh-package-json lcid@1.0.0
+638 silly decomposeActions fetch lodash@4.17.11
+639 silly decomposeActions extract lodash@4.17.11
+640 silly decomposeActions preinstall lodash@4.17.11
+641 silly decomposeActions build lodash@4.17.11
+642 silly decomposeActions install lodash@4.17.11
+643 silly decomposeActions postinstall lodash@4.17.11
+644 silly decomposeActions finalize lodash@4.17.11
+645 silly decomposeActions refresh-package-json lodash@4.17.11
+646 silly decomposeActions fetch first-mate-select-grammar@1.0.2
+647 silly decomposeActions extract first-mate-select-grammar@1.0.2
+648 silly decomposeActions preinstall first-mate-select-grammar@1.0.2
+649 silly decomposeActions build first-mate-select-grammar@1.0.2
+650 silly decomposeActions install first-mate-select-grammar@1.0.2
+651 silly decomposeActions postinstall first-mate-select-grammar@1.0.2
+652 silly decomposeActions finalize first-mate-select-grammar@1.0.2
+653 silly decomposeActions refresh-package-json first-mate-select-grammar@1.0.2
+654 silly decomposeActions fetch lodash.assign@4.2.0
+655 silly decomposeActions extract lodash.assign@4.2.0
+656 silly decomposeActions preinstall lodash.assign@4.2.0
+657 silly decomposeActions build lodash.assign@4.2.0
+658 silly decomposeActions install lodash.assign@4.2.0
+659 silly decomposeActions postinstall lodash.assign@4.2.0
+660 silly decomposeActions finalize lodash.assign@4.2.0
+661 silly decomposeActions refresh-package-json lodash.assign@4.2.0
+662 silly decomposeActions fetch mdurl@1.0.1
+663 silly decomposeActions extract mdurl@1.0.1
+664 silly decomposeActions preinstall mdurl@1.0.1
+665 silly decomposeActions build mdurl@1.0.1
+666 silly decomposeActions install mdurl@1.0.1
+667 silly decomposeActions postinstall mdurl@1.0.1
+668 silly decomposeActions finalize mdurl@1.0.1
+669 silly decomposeActions refresh-package-json mdurl@1.0.1
+670 silly decomposeActions fetch minimatch@3.0.4
+671 silly decomposeActions extract minimatch@3.0.4
+672 silly decomposeActions preinstall minimatch@3.0.4
+673 silly decomposeActions build minimatch@3.0.4
+674 silly decomposeActions install minimatch@3.0.4
+675 silly decomposeActions postinstall minimatch@3.0.4
+676 silly decomposeActions finalize minimatch@3.0.4
+677 silly decomposeActions refresh-package-json minimatch@3.0.4
+678 silly decomposeActions fetch minimist@0.0.8
+679 silly decomposeActions extract minimist@0.0.8
+680 silly decomposeActions preinstall minimist@0.0.8
+681 silly decomposeActions build minimist@0.0.8
+682 silly decomposeActions install minimist@0.0.8
+683 silly decomposeActions postinstall minimist@0.0.8
+684 silly decomposeActions finalize minimist@0.0.8
+685 silly decomposeActions refresh-package-json minimist@0.0.8
+686 silly decomposeActions fetch mixto@1.0.0
+687 silly decomposeActions extract mixto@1.0.0
+688 silly decomposeActions preinstall mixto@1.0.0
+689 silly decomposeActions build mixto@1.0.0
+690 silly decomposeActions install mixto@1.0.0
+691 silly decomposeActions postinstall mixto@1.0.0
+692 silly decomposeActions finalize mixto@1.0.0
+693 silly decomposeActions refresh-package-json mixto@1.0.0
+694 silly decomposeActions fetch mkdirp@0.5.1
+695 silly decomposeActions extract mkdirp@0.5.1
+696 silly decomposeActions preinstall mkdirp@0.5.1
+697 silly decomposeActions build mkdirp@0.5.1
+698 silly decomposeActions install mkdirp@0.5.1
+699 silly decomposeActions postinstall mkdirp@0.5.1
+700 silly decomposeActions finalize mkdirp@0.5.1
+701 silly decomposeActions refresh-package-json mkdirp@0.5.1
+702 silly decomposeActions fetch nan@2.14.0
+703 silly decomposeActions extract nan@2.14.0
+704 silly decomposeActions preinstall nan@2.14.0
+705 silly decomposeActions build nan@2.14.0
+706 silly decomposeActions install nan@2.14.0
+707 silly decomposeActions postinstall nan@2.14.0
+708 silly decomposeActions finalize nan@2.14.0
+709 silly decomposeActions refresh-package-json nan@2.14.0
+710 silly decomposeActions fetch next-tick@1.0.0
+711 silly decomposeActions extract next-tick@1.0.0
+712 silly decomposeActions preinstall next-tick@1.0.0
+713 silly decomposeActions build next-tick@1.0.0
+714 silly decomposeActions install next-tick@1.0.0
+715 silly decomposeActions postinstall next-tick@1.0.0
+716 silly decomposeActions finalize next-tick@1.0.0
+717 silly decomposeActions refresh-package-json next-tick@1.0.0
+718 silly decomposeActions fetch es5-ext@0.10.50
+719 silly decomposeActions extract es5-ext@0.10.50
+720 silly decomposeActions preinstall es5-ext@0.10.50
+721 silly decomposeActions build es5-ext@0.10.50
+722 silly decomposeActions install es5-ext@0.10.50
+723 silly decomposeActions postinstall es5-ext@0.10.50
+724 silly decomposeActions finalize es5-ext@0.10.50
+725 silly decomposeActions refresh-package-json es5-ext@0.10.50
+726 silly decomposeActions fetch d@0.1.1
+727 silly decomposeActions extract d@0.1.1
+728 silly decomposeActions preinstall d@0.1.1
+729 silly decomposeActions build d@0.1.1
+730 silly decomposeActions install d@0.1.1
+731 silly decomposeActions postinstall d@0.1.1
+732 silly decomposeActions finalize d@0.1.1
+733 silly decomposeActions refresh-package-json d@0.1.1
+734 silly decomposeActions fetch d@1.0.0
+735 silly decomposeActions extract d@1.0.0
+736 silly decomposeActions preinstall d@1.0.0
+737 silly decomposeActions build d@1.0.0
+738 silly decomposeActions install d@1.0.0
+739 silly decomposeActions postinstall d@1.0.0
+740 silly decomposeActions finalize d@1.0.0
+741 silly decomposeActions refresh-package-json d@1.0.0
+742 silly decomposeActions fetch es6-symbol@3.1.1
+743 silly decomposeActions extract es6-symbol@3.1.1
+744 silly decomposeActions preinstall es6-symbol@3.1.1
+745 silly decomposeActions build es6-symbol@3.1.1
+746 silly decomposeActions install es6-symbol@3.1.1
+747 silly decomposeActions postinstall es6-symbol@3.1.1
+748 silly decomposeActions finalize es6-symbol@3.1.1
+749 silly decomposeActions refresh-package-json es6-symbol@3.1.1
+750 silly decomposeActions fetch es6-iterator@2.0.3
+751 silly decomposeActions extract es6-iterator@2.0.3
+752 silly decomposeActions preinstall es6-iterator@2.0.3
+753 silly decomposeActions build es6-iterator@2.0.3
+754 silly decomposeActions install es6-iterator@2.0.3
+755 silly decomposeActions postinstall es6-iterator@2.0.3
+756 silly decomposeActions finalize es6-iterator@2.0.3
+757 silly decomposeActions refresh-package-json es6-iterator@2.0.3
+758 silly decomposeActions fetch es6-symbol@2.0.1
+759 silly decomposeActions extract es6-symbol@2.0.1
+760 silly decomposeActions preinstall es6-symbol@2.0.1
+761 silly decomposeActions build es6-symbol@2.0.1
+762 silly decomposeActions install es6-symbol@2.0.1
+763 silly decomposeActions postinstall es6-symbol@2.0.1
+764 silly decomposeActions finalize es6-symbol@2.0.1
+765 silly decomposeActions refresh-package-json es6-symbol@2.0.1
+766 silly decomposeActions fetch es6-iterator@0.1.3
+767 silly decomposeActions extract es6-iterator@0.1.3
+768 silly decomposeActions preinstall es6-iterator@0.1.3
+769 silly decomposeActions build es6-iterator@0.1.3
+770 silly decomposeActions install es6-iterator@0.1.3
+771 silly decomposeActions postinstall es6-iterator@0.1.3
+772 silly decomposeActions finalize es6-iterator@0.1.3
+773 silly decomposeActions refresh-package-json es6-iterator@0.1.3
+774 silly decomposeActions fetch es6-weak-map@0.1.4
+775 silly decomposeActions extract es6-weak-map@0.1.4
+776 silly decomposeActions preinstall es6-weak-map@0.1.4
+777 silly decomposeActions build es6-weak-map@0.1.4
+778 silly decomposeActions install es6-weak-map@0.1.4
+779 silly decomposeActions postinstall es6-weak-map@0.1.4
+780 silly decomposeActions finalize es6-weak-map@0.1.4
+781 silly decomposeActions refresh-package-json es6-weak-map@0.1.4
+782 silly decomposeActions fetch number-is-nan@1.0.1
+783 silly decomposeActions extract number-is-nan@1.0.1
+784 silly decomposeActions preinstall number-is-nan@1.0.1
+785 silly decomposeActions build number-is-nan@1.0.1
+786 silly decomposeActions install number-is-nan@1.0.1
+787 silly decomposeActions postinstall number-is-nan@1.0.1
+788 silly decomposeActions finalize number-is-nan@1.0.1
+789 silly decomposeActions refresh-package-json number-is-nan@1.0.1
+790 silly decomposeActions fetch is-fullwidth-code-point@1.0.0
+791 silly decomposeActions extract is-fullwidth-code-point@1.0.0
+792 silly decomposeActions preinstall is-fullwidth-code-point@1.0.0
+793 silly decomposeActions build is-fullwidth-code-point@1.0.0
+794 silly decomposeActions install is-fullwidth-code-point@1.0.0
+795 silly decomposeActions postinstall is-fullwidth-code-point@1.0.0
+796 silly decomposeActions finalize is-fullwidth-code-point@1.0.0
+797 silly decomposeActions refresh-package-json is-fullwidth-code-point@1.0.0
+798 silly decomposeActions fetch oniguruma@7.1.0
+799 silly decomposeActions extract oniguruma@7.1.0
+800 silly decomposeActions preinstall oniguruma@7.1.0
+801 silly decomposeActions build oniguruma@7.1.0
+802 silly decomposeActions install oniguruma@7.1.0
+803 silly decomposeActions postinstall oniguruma@7.1.0
+804 silly decomposeActions finalize oniguruma@7.1.0
+805 silly decomposeActions refresh-package-json oniguruma@7.1.0
+806 silly decomposeActions fetch os-locale@1.4.0
+807 silly decomposeActions extract os-locale@1.4.0
+808 silly decomposeActions preinstall os-locale@1.4.0
+809 silly decomposeActions build os-locale@1.4.0
+810 silly decomposeActions install os-locale@1.4.0
+811 silly decomposeActions postinstall os-locale@1.4.0
+812 silly decomposeActions finalize os-locale@1.4.0
+813 silly decomposeActions refresh-package-json os-locale@1.4.0
+814 silly decomposeActions fetch os-tmpdir@1.0.2
+815 silly decomposeActions extract os-tmpdir@1.0.2
+816 silly decomposeActions preinstall os-tmpdir@1.0.2
+817 silly decomposeActions build os-tmpdir@1.0.2
+818 silly decomposeActions install os-tmpdir@1.0.2
+819 silly decomposeActions postinstall os-tmpdir@1.0.2
+820 silly decomposeActions finalize os-tmpdir@1.0.2
+821 silly decomposeActions refresh-package-json os-tmpdir@1.0.2
+822 silly decomposeActions fetch parse-json@2.2.0
+823 silly decomposeActions extract parse-json@2.2.0
+824 silly decomposeActions preinstall parse-json@2.2.0
+825 silly decomposeActions build parse-json@2.2.0
+826 silly decomposeActions install parse-json@2.2.0
+827 silly decomposeActions postinstall parse-json@2.2.0
+828 silly decomposeActions finalize parse-json@2.2.0
+829 silly decomposeActions refresh-package-json parse-json@2.2.0
+830 silly decomposeActions fetch path-is-absolute@1.0.1
+831 silly decomposeActions extract path-is-absolute@1.0.1
+832 silly decomposeActions preinstall path-is-absolute@1.0.1
+833 silly decomposeActions build path-is-absolute@1.0.1
+834 silly decomposeActions install path-is-absolute@1.0.1
+835 silly decomposeActions postinstall path-is-absolute@1.0.1
+836 silly decomposeActions finalize path-is-absolute@1.0.1
+837 silly decomposeActions refresh-package-json path-is-absolute@1.0.1
+838 silly decomposeActions fetch path-parse@1.0.6
+839 silly decomposeActions extract path-parse@1.0.6
+840 silly decomposeActions preinstall path-parse@1.0.6
+841 silly decomposeActions build path-parse@1.0.6
+842 silly decomposeActions install path-parse@1.0.6
+843 silly decomposeActions postinstall path-parse@1.0.6
+844 silly decomposeActions finalize path-parse@1.0.6
+845 silly decomposeActions refresh-package-json path-parse@1.0.6
+846 silly decomposeActions fetch pify@2.3.0
+847 silly decomposeActions extract pify@2.3.0
+848 silly decomposeActions preinstall pify@2.3.0
+849 silly decomposeActions build pify@2.3.0
+850 silly decomposeActions install pify@2.3.0
+851 silly decomposeActions postinstall pify@2.3.0
+852 silly decomposeActions finalize pify@2.3.0
+853 silly decomposeActions refresh-package-json pify@2.3.0
+854 silly decomposeActions fetch pinkie@2.0.4
+855 silly decomposeActions extract pinkie@2.0.4
+856 silly decomposeActions preinstall pinkie@2.0.4
+857 silly decomposeActions build pinkie@2.0.4
+858 silly decomposeActions install pinkie@2.0.4
+859 silly decomposeActions postinstall pinkie@2.0.4
+860 silly decomposeActions finalize pinkie@2.0.4
+861 silly decomposeActions refresh-package-json pinkie@2.0.4
+862 silly decomposeActions fetch pinkie-promise@2.0.1
+863 silly decomposeActions extract pinkie-promise@2.0.1
+864 silly decomposeActions preinstall pinkie-promise@2.0.1
+865 silly decomposeActions build pinkie-promise@2.0.1
+866 silly decomposeActions install pinkie-promise@2.0.1
+867 silly decomposeActions postinstall pinkie-promise@2.0.1
+868 silly decomposeActions finalize pinkie-promise@2.0.1
+869 silly decomposeActions refresh-package-json pinkie-promise@2.0.1
+870 silly decomposeActions fetch path-exists@2.1.0
+871 silly decomposeActions extract path-exists@2.1.0
+872 silly decomposeActions preinstall path-exists@2.1.0
+873 silly decomposeActions build path-exists@2.1.0
+874 silly decomposeActions install path-exists@2.1.0
+875 silly decomposeActions postinstall path-exists@2.1.0
+876 silly decomposeActions finalize path-exists@2.1.0
+877 silly decomposeActions refresh-package-json path-exists@2.1.0
+878 silly decomposeActions fetch find-up@1.1.2
+879 silly decomposeActions extract find-up@1.1.2
+880 silly decomposeActions preinstall find-up@1.1.2
+881 silly decomposeActions build find-up@1.1.2
+882 silly decomposeActions install find-up@1.1.2
+883 silly decomposeActions postinstall find-up@1.1.2
+884 silly decomposeActions finalize find-up@1.1.2
+885 silly decomposeActions refresh-package-json find-up@1.1.2
+886 silly decomposeActions fetch path-type@1.1.0
+887 silly decomposeActions extract path-type@1.1.0
+888 silly decomposeActions preinstall path-type@1.1.0
+889 silly decomposeActions build path-type@1.1.0
+890 silly decomposeActions install path-type@1.1.0
+891 silly decomposeActions postinstall path-type@1.1.0
+892 silly decomposeActions finalize path-type@1.1.0
+893 silly decomposeActions refresh-package-json path-type@1.1.0
+894 silly decomposeActions fetch property-accessors@1.1.3
+895 silly decomposeActions extract property-accessors@1.1.3
+896 silly decomposeActions preinstall property-accessors@1.1.3
+897 silly decomposeActions build property-accessors@1.1.3
+898 silly decomposeActions install property-accessors@1.1.3
+899 silly decomposeActions postinstall property-accessors@1.1.3
+900 silly decomposeActions finalize property-accessors@1.1.3
+901 silly decomposeActions refresh-package-json property-accessors@1.1.3
+902 silly decomposeActions fetch require-directory@2.1.1
+903 silly decomposeActions extract require-directory@2.1.1
+904 silly decomposeActions preinstall require-directory@2.1.1
+905 silly decomposeActions build require-directory@2.1.1
+906 silly decomposeActions install require-directory@2.1.1
+907 silly decomposeActions postinstall require-directory@2.1.1
+908 silly decomposeActions finalize require-directory@2.1.1
+909 silly decomposeActions refresh-package-json require-directory@2.1.1
+910 silly decomposeActions fetch require-main-filename@1.0.1
+911 silly decomposeActions extract require-main-filename@1.0.1
+912 silly decomposeActions preinstall require-main-filename@1.0.1
+913 silly decomposeActions build require-main-filename@1.0.1
+914 silly decomposeActions install require-main-filename@1.0.1
+915 silly decomposeActions postinstall require-main-filename@1.0.1
+916 silly decomposeActions finalize require-main-filename@1.0.1
+917 silly decomposeActions refresh-package-json require-main-filename@1.0.1
+918 silly decomposeActions fetch resolve@1.11.1
+919 silly decomposeActions extract resolve@1.11.1
+920 silly decomposeActions preinstall resolve@1.11.1
+921 silly decomposeActions build resolve@1.11.1
+922 silly decomposeActions install resolve@1.11.1
+923 silly decomposeActions postinstall resolve@1.11.1
+924 silly decomposeActions finalize resolve@1.11.1
+925 silly decomposeActions refresh-package-json resolve@1.11.1
+926 silly decomposeActions fetch semver@5.7.0
+927 silly decomposeActions extract semver@5.7.0
+928 silly decomposeActions preinstall semver@5.7.0
+929 silly decomposeActions build semver@5.7.0
+930 silly decomposeActions install semver@5.7.0
+931 silly decomposeActions postinstall semver@5.7.0
+932 silly decomposeActions finalize semver@5.7.0
+933 silly decomposeActions refresh-package-json semver@5.7.0
+934 silly decomposeActions fetch set-blocking@2.0.0
+935 silly decomposeActions extract set-blocking@2.0.0
+936 silly decomposeActions preinstall set-blocking@2.0.0
+937 silly decomposeActions build set-blocking@2.0.0
+938 silly decomposeActions install set-blocking@2.0.0
+939 silly decomposeActions postinstall set-blocking@2.0.0
+940 silly decomposeActions finalize set-blocking@2.0.0
+941 silly decomposeActions refresh-package-json set-blocking@2.0.0
+942 silly decomposeActions fetch spdx-exceptions@2.2.0
+943 silly decomposeActions extract spdx-exceptions@2.2.0
+944 silly decomposeActions preinstall spdx-exceptions@2.2.0
+945 silly decomposeActions build spdx-exceptions@2.2.0
+946 silly decomposeActions install spdx-exceptions@2.2.0
+947 silly decomposeActions postinstall spdx-exceptions@2.2.0
+948 silly decomposeActions finalize spdx-exceptions@2.2.0
+949 silly decomposeActions refresh-package-json spdx-exceptions@2.2.0
+950 silly decomposeActions fetch spdx-license-ids@3.0.4
+951 silly decomposeActions extract spdx-license-ids@3.0.4
+952 silly decomposeActions preinstall spdx-license-ids@3.0.4
+953 silly decomposeActions build spdx-license-ids@3.0.4
+954 silly decomposeActions install spdx-license-ids@3.0.4
+955 silly decomposeActions postinstall spdx-license-ids@3.0.4
+956 silly decomposeActions finalize spdx-license-ids@3.0.4
+957 silly decomposeActions refresh-package-json spdx-license-ids@3.0.4
+958 silly decomposeActions fetch spdx-expression-parse@3.0.0
+959 silly decomposeActions extract spdx-expression-parse@3.0.0
+960 silly decomposeActions preinstall spdx-expression-parse@3.0.0
+961 silly decomposeActions build spdx-expression-parse@3.0.0
+962 silly decomposeActions install spdx-expression-parse@3.0.0
+963 silly decomposeActions postinstall spdx-expression-parse@3.0.0
+964 silly decomposeActions finalize spdx-expression-parse@3.0.0
+965 silly decomposeActions refresh-package-json spdx-expression-parse@3.0.0
+966 silly decomposeActions fetch spdx-correct@3.1.0
+967 silly decomposeActions extract spdx-correct@3.1.0
+968 silly decomposeActions preinstall spdx-correct@3.1.0
+969 silly decomposeActions build spdx-correct@3.1.0
+970 silly decomposeActions install spdx-correct@3.1.0
+971 silly decomposeActions postinstall spdx-correct@3.1.0
+972 silly decomposeActions finalize spdx-correct@3.1.0
+973 silly decomposeActions refresh-package-json spdx-correct@3.1.0
+974 silly decomposeActions fetch sprintf-js@1.0.3
+975 silly decomposeActions extract sprintf-js@1.0.3
+976 silly decomposeActions preinstall sprintf-js@1.0.3
+977 silly decomposeActions build sprintf-js@1.0.3
+978 silly decomposeActions install sprintf-js@1.0.3
+979 silly decomposeActions postinstall sprintf-js@1.0.3
+980 silly decomposeActions finalize sprintf-js@1.0.3
+981 silly decomposeActions refresh-package-json sprintf-js@1.0.3
+982 silly decomposeActions fetch argparse@1.0.10
+983 silly decomposeActions extract argparse@1.0.10
+984 silly decomposeActions preinstall argparse@1.0.10
+985 silly decomposeActions build argparse@1.0.10
+986 silly decomposeActions install argparse@1.0.10
+987 silly decomposeActions postinstall argparse@1.0.10
+988 silly decomposeActions finalize argparse@1.0.10
+989 silly decomposeActions refresh-package-json argparse@1.0.10
+990 silly decomposeActions fetch strip-ansi@3.0.1
+991 silly decomposeActions extract strip-ansi@3.0.1
+992 silly decomposeActions preinstall strip-ansi@3.0.1
+993 silly decomposeActions build strip-ansi@3.0.1
+994 silly decomposeActions install strip-ansi@3.0.1
+995 silly decomposeActions postinstall strip-ansi@3.0.1
+996 silly decomposeActions finalize strip-ansi@3.0.1
+997 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+998 silly decomposeActions fetch string-width@1.0.2
+999 silly decomposeActions extract string-width@1.0.2
+1000 silly decomposeActions preinstall string-width@1.0.2
+1001 silly decomposeActions build string-width@1.0.2
+1002 silly decomposeActions install string-width@1.0.2
+1003 silly decomposeActions postinstall string-width@1.0.2
+1004 silly decomposeActions finalize string-width@1.0.2
+1005 silly decomposeActions refresh-package-json string-width@1.0.2
+1006 silly decomposeActions fetch strip-bom@2.0.0
+1007 silly decomposeActions extract strip-bom@2.0.0
+1008 silly decomposeActions preinstall strip-bom@2.0.0
+1009 silly decomposeActions build strip-bom@2.0.0
+1010 silly decomposeActions install strip-bom@2.0.0
+1011 silly decomposeActions postinstall strip-bom@2.0.0
+1012 silly decomposeActions finalize strip-bom@2.0.0
+1013 silly decomposeActions refresh-package-json strip-bom@2.0.0
+1014 silly decomposeActions fetch load-json-file@1.1.0
+1015 silly decomposeActions extract load-json-file@1.1.0
+1016 silly decomposeActions preinstall load-json-file@1.1.0
+1017 silly decomposeActions build load-json-file@1.1.0
+1018 silly decomposeActions install load-json-file@1.1.0
+1019 silly decomposeActions postinstall load-json-file@1.1.0
+1020 silly decomposeActions finalize load-json-file@1.1.0
+1021 silly decomposeActions refresh-package-json load-json-file@1.1.0
+1022 silly decomposeActions fetch rimraf@2.2.8
+1023 silly decomposeActions extract rimraf@2.2.8
+1024 silly decomposeActions preinstall rimraf@2.2.8
+1025 silly decomposeActions build rimraf@2.2.8
+1026 silly decomposeActions install rimraf@2.2.8
+1027 silly decomposeActions postinstall rimraf@2.2.8
+1028 silly decomposeActions finalize rimraf@2.2.8
+1029 silly decomposeActions refresh-package-json rimraf@2.2.8
+1030 silly decomposeActions fetch uc.micro@1.0.6
+1031 silly decomposeActions extract uc.micro@1.0.6
+1032 silly decomposeActions preinstall uc.micro@1.0.6
+1033 silly decomposeActions build uc.micro@1.0.6
+1034 silly decomposeActions install uc.micro@1.0.6
+1035 silly decomposeActions postinstall uc.micro@1.0.6
+1036 silly decomposeActions finalize uc.micro@1.0.6
+1037 silly decomposeActions refresh-package-json uc.micro@1.0.6
+1038 silly decomposeActions fetch linkify-it@2.1.0
+1039 silly decomposeActions extract linkify-it@2.1.0
+1040 silly decomposeActions preinstall linkify-it@2.1.0
+1041 silly decomposeActions build linkify-it@2.1.0
+1042 silly decomposeActions install linkify-it@2.1.0
+1043 silly decomposeActions postinstall linkify-it@2.1.0
+1044 silly decomposeActions finalize linkify-it@2.1.0
+1045 silly decomposeActions refresh-package-json linkify-it@2.1.0
+1046 silly decomposeActions fetch underscore@1.9.1
+1047 silly decomposeActions extract underscore@1.9.1
+1048 silly decomposeActions preinstall underscore@1.9.1
+1049 silly decomposeActions build underscore@1.9.1
+1050 silly decomposeActions install underscore@1.9.1
+1051 silly decomposeActions postinstall underscore@1.9.1
+1052 silly decomposeActions finalize underscore@1.9.1
+1053 silly decomposeActions refresh-package-json underscore@1.9.1
+1054 silly decomposeActions fetch underscore-plus@1.7.0
+1055 silly decomposeActions extract underscore-plus@1.7.0
+1056 silly decomposeActions preinstall underscore-plus@1.7.0
+1057 silly decomposeActions build underscore-plus@1.7.0
+1058 silly decomposeActions install underscore-plus@1.7.0
+1059 silly decomposeActions postinstall underscore-plus@1.7.0
+1060 silly decomposeActions finalize underscore-plus@1.7.0
+1061 silly decomposeActions refresh-package-json underscore-plus@1.7.0
+1062 silly decomposeActions fetch emissary@1.3.3
+1063 silly decomposeActions extract emissary@1.3.3
+1064 silly decomposeActions preinstall emissary@1.3.3
+1065 silly decomposeActions build emissary@1.3.3
+1066 silly decomposeActions install emissary@1.3.3
+1067 silly decomposeActions postinstall emissary@1.3.3
+1068 silly decomposeActions finalize emissary@1.3.3
+1069 silly decomposeActions refresh-package-json emissary@1.3.3
+1070 silly decomposeActions fetch validate-npm-package-license@3.0.4
+1071 silly decomposeActions extract validate-npm-package-license@3.0.4
+1072 silly decomposeActions preinstall validate-npm-package-license@3.0.4
+1073 silly decomposeActions build validate-npm-package-license@3.0.4
+1074 silly decomposeActions install validate-npm-package-license@3.0.4
+1075 silly decomposeActions postinstall validate-npm-package-license@3.0.4
+1076 silly decomposeActions finalize validate-npm-package-license@3.0.4
+1077 silly decomposeActions refresh-package-json validate-npm-package-license@3.0.4
+1078 silly decomposeActions fetch normalize-package-data@2.5.0
+1079 silly decomposeActions extract normalize-package-data@2.5.0
+1080 silly decomposeActions preinstall normalize-package-data@2.5.0
+1081 silly decomposeActions build normalize-package-data@2.5.0
+1082 silly decomposeActions install normalize-package-data@2.5.0
+1083 silly decomposeActions postinstall normalize-package-data@2.5.0
+1084 silly decomposeActions finalize normalize-package-data@2.5.0
+1085 silly decomposeActions refresh-package-json normalize-package-data@2.5.0
+1086 silly decomposeActions fetch read-pkg@1.1.0
+1087 silly decomposeActions extract read-pkg@1.1.0
+1088 silly decomposeActions preinstall read-pkg@1.1.0
+1089 silly decomposeActions build read-pkg@1.1.0
+1090 silly decomposeActions install read-pkg@1.1.0
+1091 silly decomposeActions postinstall read-pkg@1.1.0
+1092 silly decomposeActions finalize read-pkg@1.1.0
+1093 silly decomposeActions refresh-package-json read-pkg@1.1.0
+1094 silly decomposeActions fetch read-pkg-up@1.0.1
+1095 silly decomposeActions extract read-pkg-up@1.0.1
+1096 silly decomposeActions preinstall read-pkg-up@1.0.1
+1097 silly decomposeActions build read-pkg-up@1.0.1
+1098 silly decomposeActions install read-pkg-up@1.0.1
+1099 silly decomposeActions postinstall read-pkg-up@1.0.1
+1100 silly decomposeActions finalize read-pkg-up@1.0.1
+1101 silly decomposeActions refresh-package-json read-pkg-up@1.0.1
+1102 silly decomposeActions fetch which-module@1.0.0
+1103 silly decomposeActions extract which-module@1.0.0
+1104 silly decomposeActions preinstall which-module@1.0.0
+1105 silly decomposeActions build which-module@1.0.0
+1106 silly decomposeActions install which-module@1.0.0
+1107 silly decomposeActions postinstall which-module@1.0.0
+1108 silly decomposeActions finalize which-module@1.0.0
+1109 silly decomposeActions refresh-package-json which-module@1.0.0
+1110 silly decomposeActions fetch window-size@0.1.4
+1111 silly decomposeActions extract window-size@0.1.4
+1112 silly decomposeActions preinstall window-size@0.1.4
+1113 silly decomposeActions build window-size@0.1.4
+1114 silly decomposeActions install window-size@0.1.4
+1115 silly decomposeActions postinstall window-size@0.1.4
+1116 silly decomposeActions finalize window-size@0.1.4
+1117 silly decomposeActions refresh-package-json window-size@0.1.4
+1118 silly decomposeActions fetch wrap-ansi@2.1.0
+1119 silly decomposeActions extract wrap-ansi@2.1.0
+1120 silly decomposeActions preinstall wrap-ansi@2.1.0
+1121 silly decomposeActions build wrap-ansi@2.1.0
+1122 silly decomposeActions install wrap-ansi@2.1.0
+1123 silly decomposeActions postinstall wrap-ansi@2.1.0
+1124 silly decomposeActions finalize wrap-ansi@2.1.0
+1125 silly decomposeActions refresh-package-json wrap-ansi@2.1.0
+1126 silly decomposeActions fetch cliui@3.2.0
+1127 silly decomposeActions extract cliui@3.2.0
+1128 silly decomposeActions preinstall cliui@3.2.0
+1129 silly decomposeActions build cliui@3.2.0
+1130 silly decomposeActions install cliui@3.2.0
+1131 silly decomposeActions postinstall cliui@3.2.0
+1132 silly decomposeActions finalize cliui@3.2.0
+1133 silly decomposeActions refresh-package-json cliui@3.2.0
+1134 silly decomposeActions fetch wrappy@1.0.2
+1135 silly decomposeActions extract wrappy@1.0.2
+1136 silly decomposeActions preinstall wrappy@1.0.2
+1137 silly decomposeActions build wrappy@1.0.2
+1138 silly decomposeActions install wrappy@1.0.2
+1139 silly decomposeActions postinstall wrappy@1.0.2
+1140 silly decomposeActions finalize wrappy@1.0.2
+1141 silly decomposeActions refresh-package-json wrappy@1.0.2
+1142 silly decomposeActions fetch once@1.4.0
+1143 silly decomposeActions extract once@1.4.0
+1144 silly decomposeActions preinstall once@1.4.0
+1145 silly decomposeActions build once@1.4.0
+1146 silly decomposeActions install once@1.4.0
+1147 silly decomposeActions postinstall once@1.4.0
+1148 silly decomposeActions finalize once@1.4.0
+1149 silly decomposeActions refresh-package-json once@1.4.0
+1150 silly decomposeActions fetch inflight@1.0.6
+1151 silly decomposeActions extract inflight@1.0.6
+1152 silly decomposeActions preinstall inflight@1.0.6
+1153 silly decomposeActions build inflight@1.0.6
+1154 silly decomposeActions install inflight@1.0.6
+1155 silly decomposeActions postinstall inflight@1.0.6
+1156 silly decomposeActions finalize inflight@1.0.6
+1157 silly decomposeActions refresh-package-json inflight@1.0.6
+1158 silly decomposeActions fetch glob@7.1.4
+1159 silly decomposeActions extract glob@7.1.4
+1160 silly decomposeActions preinstall glob@7.1.4
+1161 silly decomposeActions build glob@7.1.4
+1162 silly decomposeActions install glob@7.1.4
+1163 silly decomposeActions postinstall glob@7.1.4
+1164 silly decomposeActions finalize glob@7.1.4
+1165 silly decomposeActions refresh-package-json glob@7.1.4
+1166 silly decomposeActions fetch rimraf@2.6.3
+1167 silly decomposeActions extract rimraf@2.6.3
+1168 silly decomposeActions preinstall rimraf@2.6.3
+1169 silly decomposeActions build rimraf@2.6.3
+1170 silly decomposeActions install rimraf@2.6.3
+1171 silly decomposeActions postinstall rimraf@2.6.3
+1172 silly decomposeActions finalize rimraf@2.6.3
+1173 silly decomposeActions refresh-package-json rimraf@2.6.3
+1174 silly decomposeActions fetch fs-plus@3.1.1
+1175 silly decomposeActions extract fs-plus@3.1.1
+1176 silly decomposeActions preinstall fs-plus@3.1.1
+1177 silly decomposeActions build fs-plus@3.1.1
+1178 silly decomposeActions install fs-plus@3.1.1
+1179 silly decomposeActions postinstall fs-plus@3.1.1
+1180 silly decomposeActions finalize fs-plus@3.1.1
+1181 silly decomposeActions refresh-package-json fs-plus@3.1.1
+1182 silly decomposeActions fetch y18n@3.2.1
+1183 silly decomposeActions extract y18n@3.2.1
+1184 silly decomposeActions preinstall y18n@3.2.1
+1185 silly decomposeActions build y18n@3.2.1
+1186 silly decomposeActions install y18n@3.2.1
+1187 silly decomposeActions postinstall y18n@3.2.1
+1188 silly decomposeActions finalize y18n@3.2.1
+1189 silly decomposeActions refresh-package-json y18n@3.2.1
+1190 silly decomposeActions fetch yargs@3.32.0
+1191 silly decomposeActions extract yargs@3.32.0
+1192 silly decomposeActions preinstall yargs@3.32.0
+1193 silly decomposeActions build yargs@3.32.0
+1194 silly decomposeActions install yargs@3.32.0
+1195 silly decomposeActions postinstall yargs@3.32.0
+1196 silly decomposeActions finalize yargs@3.32.0
+1197 silly decomposeActions refresh-package-json yargs@3.32.0
+1198 silly decomposeActions fetch season@6.0.2
+1199 silly decomposeActions extract season@6.0.2
+1200 silly decomposeActions preinstall season@6.0.2
+1201 silly decomposeActions build season@6.0.2
+1202 silly decomposeActions install season@6.0.2
+1203 silly decomposeActions postinstall season@6.0.2
+1204 silly decomposeActions finalize season@6.0.2
+1205 silly decomposeActions refresh-package-json season@6.0.2
+1206 silly decomposeActions fetch first-mate@7.3.0
+1207 silly decomposeActions extract first-mate@7.3.0
+1208 silly decomposeActions preinstall first-mate@7.3.0
+1209 silly decomposeActions build first-mate@7.3.0
+1210 silly decomposeActions install first-mate@7.3.0
+1211 silly decomposeActions postinstall first-mate@7.3.0
+1212 silly decomposeActions finalize first-mate@7.3.0
+1213 silly decomposeActions refresh-package-json first-mate@7.3.0
+1214 silly decomposeActions fetch camelcase@3.0.0
+1215 silly decomposeActions extract camelcase@3.0.0
+1216 silly decomposeActions preinstall camelcase@3.0.0
+1217 silly decomposeActions build camelcase@3.0.0
+1218 silly decomposeActions install camelcase@3.0.0
+1219 silly decomposeActions postinstall camelcase@3.0.0
+1220 silly decomposeActions finalize camelcase@3.0.0
+1221 silly decomposeActions refresh-package-json camelcase@3.0.0
+1222 silly decomposeActions fetch yargs-parser@2.4.1
+1223 silly decomposeActions extract yargs-parser@2.4.1
+1224 silly decomposeActions preinstall yargs-parser@2.4.1
+1225 silly decomposeActions build yargs-parser@2.4.1
+1226 silly decomposeActions install yargs-parser@2.4.1
+1227 silly decomposeActions postinstall yargs-parser@2.4.1
+1228 silly decomposeActions finalize yargs-parser@2.4.1
+1229 silly decomposeActions refresh-package-json yargs-parser@2.4.1
+1230 silly decomposeActions fetch window-size@0.2.0
+1231 silly decomposeActions extract window-size@0.2.0
+1232 silly decomposeActions preinstall window-size@0.2.0
+1233 silly decomposeActions build window-size@0.2.0
+1234 silly decomposeActions install window-size@0.2.0
+1235 silly decomposeActions postinstall window-size@0.2.0
+1236 silly decomposeActions finalize window-size@0.2.0
+1237 silly decomposeActions refresh-package-json window-size@0.2.0
+1238 silly decomposeActions fetch yargs@4.8.1
+1239 silly decomposeActions extract yargs@4.8.1
+1240 silly decomposeActions preinstall yargs@4.8.1
+1241 silly decomposeActions build yargs@4.8.1
+1242 silly decomposeActions install yargs@4.8.1
+1243 silly decomposeActions postinstall yargs@4.8.1
+1244 silly decomposeActions finalize yargs@4.8.1
+1245 silly decomposeActions refresh-package-json yargs@4.8.1
+1246 silly decomposeActions fetch dompurify@1.0.10
+1247 silly decomposeActions extract dompurify@1.0.10
+1248 silly decomposeActions preinstall dompurify@1.0.10
+1249 silly decomposeActions build dompurify@1.0.10
+1250 silly decomposeActions install dompurify@1.0.10
+1251 silly decomposeActions postinstall dompurify@1.0.10
+1252 silly decomposeActions finalize dompurify@1.0.10
+1253 silly decomposeActions refresh-package-json dompurify@1.0.10
+1254 silly decomposeActions fetch highlights@3.1.1
+1255 silly decomposeActions extract highlights@3.1.1
+1256 silly decomposeActions preinstall highlights@3.1.1
+1257 silly decomposeActions build highlights@3.1.1
+1258 silly decomposeActions install highlights@3.1.1
+1259 silly decomposeActions postinstall highlights@3.1.1
+1260 silly decomposeActions finalize highlights@3.1.1
+1261 silly decomposeActions refresh-package-json highlights@3.1.1
+1262 silly decomposeActions fetch markdown-it@8.4.2
+1263 silly decomposeActions extract markdown-it@8.4.2
+1264 silly decomposeActions preinstall markdown-it@8.4.2
+1265 silly decomposeActions build markdown-it@8.4.2
+1266 silly decomposeActions install markdown-it@8.4.2
+1267 silly decomposeActions postinstall markdown-it@8.4.2
+1268 silly decomposeActions finalize markdown-it@8.4.2
+1269 silly decomposeActions refresh-package-json markdown-it@8.4.2
+1270 silly decomposeActions fetch temp@0.8.3
+1271 silly decomposeActions extract temp@0.8.3
+1272 silly decomposeActions preinstall temp@0.8.3
+1273 silly decomposeActions build temp@0.8.3
+1274 silly decomposeActions install temp@0.8.3
+1275 silly decomposeActions postinstall temp@0.8.3
+1276 silly decomposeActions finalize temp@0.8.3
+1277 silly decomposeActions refresh-package-json temp@0.8.3
+1278 silly decomposeActions fetch wrench@1.5.9
+1279 silly decomposeActions extract wrench@1.5.9
+1280 silly decomposeActions preinstall wrench@1.5.9
+1281 silly decomposeActions build wrench@1.5.9
+1282 silly decomposeActions install wrench@1.5.9
+1283 silly decomposeActions postinstall wrench@1.5.9
+1284 silly decomposeActions finalize wrench@1.5.9
+1285 silly decomposeActions refresh-package-json wrench@1.5.9
+1286 silly decomposeActions fetch markdown-it-preview@0.2.5
+1287 silly decomposeActions extract markdown-it-preview@0.2.5
+1288 silly decomposeActions preinstall markdown-it-preview@0.2.5
+1289 silly decomposeActions build markdown-it-preview@0.2.5
+1290 silly decomposeActions install markdown-it-preview@0.2.5
+1291 silly decomposeActions postinstall markdown-it-preview@0.2.5
+1292 silly decomposeActions finalize markdown-it-preview@0.2.5
+1293 silly decomposeActions refresh-package-json markdown-it-preview@0.2.5
+1294 silly install executeActions
+1295 silly doSerial global-install 840
+1296 verbose correctMkdir /Users/hotman/.atom/.apm/_locks correctMkdir not in flight; initializing
+1297 timing audit compress Completed in 3ms
+1298 info audit Submitting payload of 6499bytes
+1299 verbose lock using /Users/hotman/.atom/.apm/_locks/staging-0e3381c9388cabed.lock for /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/.staging
+1300 silly doParallel extract 105
+1301 silly extract ansi-regex@2.1.1
+1302 silly extract async@1.5.2
+1303 silly extract balanced-match@1.0.0
+1304 silly extract camelcase@2.1.1
+1305 silly extract code-point-at@1.1.0
+1306 silly extract coffee-script@1.12.7
+1307 silly extract concat-map@0.0.1
+1308 silly extract brace-expansion@1.1.11
+1309 silly extract cson-parser@1.3.5
+1310 silly extract decamelize@1.2.0
+1311 silly extract entities@1.1.2
+1312 silly extract event-kit@2.5.3
+1313 silly extract fs.realpath@1.0.0
+1314 silly extract get-caller-file@1.0.3
+1315 silly extract graceful-fs@4.1.15
+1316 silly extract grim@2.0.2
+1317 silly extract hosted-git-info@2.7.1
+1318 silly extract inherits@2.0.3
+1319 silly extract invert-kv@1.0.0
+1320 silly extract is-arrayish@0.2.1
+1321 silly extract error-ex@1.3.2
+1322 silly extract is-utf8@0.2.1
+1323 silly extract lcid@1.0.0
+1324 silly extract lodash@4.17.11
+1325 silly extract first-mate-select-grammar@1.0.2
+1326 silly extract lodash.assign@4.2.0
+1327 silly extract mdurl@1.0.1
+1328 silly extract minimatch@3.0.4
+1329 silly extract minimist@0.0.8
+1330 silly extract mixto@1.0.0
+1331 silly extract mkdirp@0.5.1
+1332 silly extract nan@2.14.0
+1333 silly extract next-tick@1.0.0
+1334 silly extract es5-ext@0.10.50
+1335 silly extract d@0.1.1
+1336 silly extract d@1.0.0
+1337 silly extract es6-symbol@3.1.1
+1338 silly extract es6-iterator@2.0.3
+1339 silly extract es6-symbol@2.0.1
+1340 silly extract es6-iterator@0.1.3
+1341 silly extract es6-weak-map@0.1.4
+1342 silly extract number-is-nan@1.0.1
+1343 silly extract is-fullwidth-code-point@1.0.0
+1344 silly extract oniguruma@7.1.0
+1345 silly extract os-locale@1.4.0
+1346 silly extract os-tmpdir@1.0.2
+1347 silly extract parse-json@2.2.0
+1348 silly extract path-is-absolute@1.0.1
+1349 silly extract path-parse@1.0.6
+1350 silly extract pify@2.3.0
+1351 timing audit submit Completed in 331ms
+1352 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 330ms
+1353 timing audit body Completed in 0ms
+1354 silly extract markdown-it-preview@0.2.5
+1355 silly extract wrench@1.5.9
+1356 silly extract temp@0.8.3
+1357 silly extract markdown-it@8.4.2
+1358 silly extract highlights@3.1.1
+1359 silly extract dompurify@1.0.10
+1360 silly extract yargs@4.8.1
+1361 silly extract window-size@0.2.0
+1362 silly extract yargs-parser@2.4.1
+1363 silly extract camelcase@3.0.0
+1364 silly extract first-mate@7.3.0
+1365 silly extract season@6.0.2
+1366 silly extract yargs@3.32.0
+1367 silly extract y18n@3.2.1
+1368 silly extract fs-plus@3.1.1
+1369 silly extract rimraf@2.6.3
+1370 silly extract glob@7.1.4
+1371 silly extract inflight@1.0.6
+1372 silly extract once@1.4.0
+1373 silly extract wrappy@1.0.2
+1374 silly extract cliui@3.2.0
+1375 silly extract wrap-ansi@2.1.0
+1376 silly extract window-size@0.1.4
+1377 silly extract which-module@1.0.0
+1378 silly extract read-pkg-up@1.0.1
+1379 silly extract read-pkg@1.1.0
+1380 silly extract normalize-package-data@2.5.0
+1381 silly extract validate-npm-package-license@3.0.4
+1382 silly extract emissary@1.3.3
+1383 silly extract underscore-plus@1.7.0
+1384 silly extract underscore@1.9.1
+1385 silly extract linkify-it@2.1.0
+1386 silly extract uc.micro@1.0.6
+1387 silly extract rimraf@2.2.8
+1388 silly extract load-json-file@1.1.0
+1389 silly extract strip-bom@2.0.0
+1390 silly extract string-width@1.0.2
+1391 silly extract strip-ansi@3.0.1
+1392 silly extract argparse@1.0.10
+1393 silly extract sprintf-js@1.0.3
+1394 silly extract spdx-correct@3.1.0
+1395 silly extract spdx-expression-parse@3.0.0
+1396 silly extract spdx-license-ids@3.0.4
+1397 silly extract spdx-exceptions@2.2.0
+1398 silly extract set-blocking@2.0.0
+1399 silly extract semver@5.7.0
+1400 silly extract resolve@1.11.1
+1401 silly extract require-main-filename@1.0.1
+1402 silly extract require-directory@2.1.1
+1403 silly extract property-accessors@1.1.3
+1404 silly extract path-type@1.1.0
+1405 silly extract find-up@1.1.2
+1406 silly extract path-exists@2.1.0
+1407 silly extract pinkie-promise@2.0.1
+1408 silly extract pinkie@2.0.4
+1409 timing action:extract Completed in 2883ms
+1410 silly doReverseSerial unbuild 840
+1411 silly doSerial remove 840
+1412 silly doSerial move 840
+1413 silly doSerial finalize 840
+1414 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/ansi-regex
+1415 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/async
+1416 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/balanced-match
+1417 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/camelcase
+1418 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/code-point-at
+1419 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/coffee-script
+1420 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/concat-map
+1421 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/brace-expansion
+1422 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/cson-parser
+1423 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/decamelize
+1424 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/entities
+1425 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/event-kit
+1426 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/fs.realpath
+1427 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/get-caller-file
+1428 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/graceful-fs
+1429 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/grim
+1430 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/hosted-git-info
+1431 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/inherits
+1432 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/invert-kv
+1433 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-arrayish
+1434 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/error-ex
+1435 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-utf8
+1436 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lcid
+1437 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lodash
+1438 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/first-mate-select-grammar
+1439 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lodash.assign
+1440 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mdurl
+1441 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/minimatch
+1442 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/minimist
+1443 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mixto
+1444 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mkdirp
+1445 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/nan
+1446 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/next-tick
+1447 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext
+1448 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/d
+1449 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/d
+1450 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/es6-symbol
+1451 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/es6-iterator
+1452 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-symbol
+1453 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-iterator
+1454 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-weak-map
+1455 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/number-is-nan
+1456 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-fullwidth-code-point
+1457 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/oniguruma
+1458 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/os-locale
+1459 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/os-tmpdir
+1460 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/parse-json
+1461 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-is-absolute
+1462 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-parse
+1463 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pify
+1464 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pinkie
+1465 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pinkie-promise
+1466 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-exists
+1467 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/find-up
+1468 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-type
+1469 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/property-accessors
+1470 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/require-directory
+1471 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/require-main-filename
+1472 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/resolve
+1473 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/semver
+1474 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/set-blocking
+1475 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-exceptions
+1476 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-license-ids
+1477 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-expression-parse
+1478 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-correct
+1479 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/sprintf-js
+1480 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/argparse
+1481 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/strip-ansi
+1482 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/string-width
+1483 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/strip-bom
+1484 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/load-json-file
+1485 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp/node_modules/rimraf
+1486 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/uc.micro
+1487 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/linkify-it
+1488 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/underscore
+1489 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/underscore-plus
+1490 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/emissary
+1491 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/validate-npm-package-license
+1492 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/normalize-package-data
+1493 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/read-pkg
+1494 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/read-pkg-up
+1495 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/which-module
+1496 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/window-size
+1497 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrap-ansi
+1498 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/cliui
+1499 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrappy
+1500 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/once
+1501 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/inflight
+1502 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/glob
+1503 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/rimraf
+1504 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/fs-plus
+1505 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/y18n
+1506 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/season/node_modules/yargs
+1507 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/season
+1508 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/first-mate
+1509 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs-parser/node_modules/camelcase
+1510 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs-parser
+1511 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs/node_modules/window-size
+1512 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs
+1513 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/dompurify
+1514 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/highlights
+1515 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/markdown-it
+1516 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp
+1517 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrench
+1518 silly finalize /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview
+1519 timing action:finalize Completed in 188ms
+1520 silly doParallel refresh-package-json 105
+1521 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/ansi-regex
+1522 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/async
+1523 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/balanced-match
+1524 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/camelcase
+1525 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/code-point-at
+1526 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/coffee-script
+1527 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/concat-map
+1528 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/brace-expansion
+1529 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/cson-parser
+1530 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/decamelize
+1531 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/entities
+1532 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/event-kit
+1533 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/fs.realpath
+1534 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/get-caller-file
+1535 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/graceful-fs
+1536 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/grim
+1537 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/hosted-git-info
+1538 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/inherits
+1539 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/invert-kv
+1540 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-arrayish
+1541 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/error-ex
+1542 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-utf8
+1543 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lcid
+1544 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lodash
+1545 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/first-mate-select-grammar
+1546 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/lodash.assign
+1547 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mdurl
+1548 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/minimatch
+1549 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/minimist
+1550 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mixto
+1551 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/mkdirp
+1552 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/nan
+1553 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/next-tick
+1554 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext
+1555 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/d
+1556 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/d
+1557 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/es6-symbol
+1558 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules/es6-iterator
+1559 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-symbol
+1560 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-iterator
+1561 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es6-weak-map
+1562 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/number-is-nan
+1563 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/is-fullwidth-code-point
+1564 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/oniguruma
+1565 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/os-locale
+1566 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/os-tmpdir
+1567 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/parse-json
+1568 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-is-absolute
+1569 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-parse
+1570 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pify
+1571 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview
+1572 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrench
+1573 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp
+1574 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/markdown-it
+1575 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/highlights
+1576 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/dompurify
+1577 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs
+1578 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs/node_modules/window-size
+1579 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs-parser
+1580 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs-parser/node_modules/camelcase
+1581 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/first-mate
+1582 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/season
+1583 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/season/node_modules/yargs
+1584 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/y18n
+1585 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/fs-plus
+1586 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/rimraf
+1587 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/glob
+1588 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/inflight
+1589 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/once
+1590 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrappy
+1591 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/cliui
+1592 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/wrap-ansi
+1593 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/window-size
+1594 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/which-module
+1595 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/read-pkg-up
+1596 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/read-pkg
+1597 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/normalize-package-data
+1598 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/validate-npm-package-license
+1599 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/emissary
+1600 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/underscore-plus
+1601 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/underscore
+1602 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/linkify-it
+1603 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/uc.micro
+1604 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp/node_modules/rimraf
+1605 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/load-json-file
+1606 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/strip-bom
+1607 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/string-width
+1608 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/strip-ansi
+1609 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/argparse
+1610 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/sprintf-js
+1611 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-correct
+1612 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-expression-parse
+1613 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-license-ids
+1614 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/spdx-exceptions
+1615 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/set-blocking
+1616 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/semver
+1617 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/resolve
+1618 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/require-main-filename
+1619 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/require-directory
+1620 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/property-accessors
+1621 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-type
+1622 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/find-up
+1623 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/path-exists
+1624 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pinkie-promise
+1625 silly refresh-package-json /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/pinkie
+1626 timing action:refresh-package-json Completed in 456ms
+1627 silly doParallel preinstall 105
+1628 silly preinstall ansi-regex@2.1.1
+1629 info lifecycle ansi-regex@2.1.1~preinstall: ansi-regex@2.1.1
+1630 silly preinstall async@1.5.2
+1631 info lifecycle async@1.5.2~preinstall: async@1.5.2
+1632 silly preinstall balanced-match@1.0.0
+1633 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+1634 silly preinstall camelcase@2.1.1
+1635 info lifecycle camelcase@2.1.1~preinstall: camelcase@2.1.1
+1636 silly preinstall code-point-at@1.1.0
+1637 info lifecycle code-point-at@1.1.0~preinstall: code-point-at@1.1.0
+1638 silly preinstall coffee-script@1.12.7
+1639 info lifecycle coffee-script@1.12.7~preinstall: coffee-script@1.12.7
+1640 silly preinstall concat-map@0.0.1
+1641 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+1642 silly preinstall brace-expansion@1.1.11
+1643 info lifecycle brace-expansion@1.1.11~preinstall: brace-expansion@1.1.11
+1644 silly preinstall cson-parser@1.3.5
+1645 info lifecycle cson-parser@1.3.5~preinstall: cson-parser@1.3.5
+1646 silly preinstall decamelize@1.2.0
+1647 info lifecycle decamelize@1.2.0~preinstall: decamelize@1.2.0
+1648 silly preinstall entities@1.1.2
+1649 info lifecycle entities@1.1.2~preinstall: entities@1.1.2
+1650 silly preinstall event-kit@2.5.3
+1651 info lifecycle event-kit@2.5.3~preinstall: event-kit@2.5.3
+1652 silly preinstall fs.realpath@1.0.0
+1653 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+1654 silly preinstall get-caller-file@1.0.3
+1655 info lifecycle get-caller-file@1.0.3~preinstall: get-caller-file@1.0.3
+1656 silly preinstall graceful-fs@4.1.15
+1657 info lifecycle graceful-fs@4.1.15~preinstall: graceful-fs@4.1.15
+1658 silly preinstall grim@2.0.2
+1659 info lifecycle grim@2.0.2~preinstall: grim@2.0.2
+1660 silly preinstall hosted-git-info@2.7.1
+1661 info lifecycle hosted-git-info@2.7.1~preinstall: hosted-git-info@2.7.1
+1662 silly preinstall inherits@2.0.3
+1663 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+1664 silly preinstall invert-kv@1.0.0
+1665 info lifecycle invert-kv@1.0.0~preinstall: invert-kv@1.0.0
+1666 silly preinstall is-arrayish@0.2.1
+1667 info lifecycle is-arrayish@0.2.1~preinstall: is-arrayish@0.2.1
+1668 silly preinstall error-ex@1.3.2
+1669 info lifecycle error-ex@1.3.2~preinstall: error-ex@1.3.2
+1670 silly preinstall is-utf8@0.2.1
+1671 info lifecycle is-utf8@0.2.1~preinstall: is-utf8@0.2.1
+1672 silly preinstall lcid@1.0.0
+1673 info lifecycle lcid@1.0.0~preinstall: lcid@1.0.0
+1674 silly preinstall lodash@4.17.11
+1675 info lifecycle lodash@4.17.11~preinstall: lodash@4.17.11
+1676 silly preinstall first-mate-select-grammar@1.0.2
+1677 info lifecycle first-mate-select-grammar@1.0.2~preinstall: first-mate-select-grammar@1.0.2
+1678 silly preinstall lodash.assign@4.2.0
+1679 info lifecycle lodash.assign@4.2.0~preinstall: lodash.assign@4.2.0
+1680 silly preinstall mdurl@1.0.1
+1681 info lifecycle mdurl@1.0.1~preinstall: mdurl@1.0.1
+1682 silly preinstall minimatch@3.0.4
+1683 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+1684 silly preinstall minimist@0.0.8
+1685 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+1686 silly preinstall mixto@1.0.0
+1687 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+1688 silly preinstall mkdirp@0.5.1
+1689 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+1690 silly preinstall nan@2.14.0
+1691 info lifecycle nan@2.14.0~preinstall: nan@2.14.0
+1692 silly preinstall next-tick@1.0.0
+1693 info lifecycle next-tick@1.0.0~preinstall: next-tick@1.0.0
+1694 silly preinstall es5-ext@0.10.50
+1695 info lifecycle es5-ext@0.10.50~preinstall: es5-ext@0.10.50
+1696 silly preinstall d@0.1.1
+1697 info lifecycle d@0.1.1~preinstall: d@0.1.1
+1698 silly preinstall d@1.0.0
+1699 info lifecycle d@1.0.0~preinstall: d@1.0.0
+1700 silly preinstall es6-symbol@3.1.1
+1701 info lifecycle es6-symbol@3.1.1~preinstall: es6-symbol@3.1.1
+1702 silly preinstall es6-iterator@2.0.3
+1703 info lifecycle es6-iterator@2.0.3~preinstall: es6-iterator@2.0.3
+1704 silly preinstall es6-symbol@2.0.1
+1705 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+1706 silly preinstall es6-iterator@0.1.3
+1707 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+1708 silly preinstall es6-weak-map@0.1.4
+1709 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+1710 silly preinstall number-is-nan@1.0.1
+1711 info lifecycle number-is-nan@1.0.1~preinstall: number-is-nan@1.0.1
+1712 silly preinstall is-fullwidth-code-point@1.0.0
+1713 info lifecycle is-fullwidth-code-point@1.0.0~preinstall: is-fullwidth-code-point@1.0.0
+1714 silly preinstall oniguruma@7.1.0
+1715 info lifecycle oniguruma@7.1.0~preinstall: oniguruma@7.1.0
+1716 silly preinstall os-locale@1.4.0
+1717 info lifecycle os-locale@1.4.0~preinstall: os-locale@1.4.0
+1718 silly preinstall os-tmpdir@1.0.2
+1719 info lifecycle os-tmpdir@1.0.2~preinstall: os-tmpdir@1.0.2
+1720 silly preinstall parse-json@2.2.0
+1721 info lifecycle parse-json@2.2.0~preinstall: parse-json@2.2.0
+1722 silly preinstall path-is-absolute@1.0.1
+1723 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+1724 silly preinstall path-parse@1.0.6
+1725 info lifecycle path-parse@1.0.6~preinstall: path-parse@1.0.6
+1726 silly preinstall pify@2.3.0
+1727 info lifecycle pify@2.3.0~preinstall: pify@2.3.0
+1728 silly preinstall markdown-it-preview@0.2.5
+1729 info lifecycle markdown-it-preview@0.2.5~preinstall: markdown-it-preview@0.2.5
+1730 silly preinstall wrench@1.5.9
+1731 info lifecycle wrench@1.5.9~preinstall: wrench@1.5.9
+1732 silly preinstall temp@0.8.3
+1733 info lifecycle temp@0.8.3~preinstall: temp@0.8.3
+1734 silly preinstall markdown-it@8.4.2
+1735 info lifecycle markdown-it@8.4.2~preinstall: markdown-it@8.4.2
+1736 silly preinstall highlights@3.1.1
+1737 info lifecycle highlights@3.1.1~preinstall: highlights@3.1.1
+1738 silly preinstall dompurify@1.0.10
+1739 info lifecycle dompurify@1.0.10~preinstall: dompurify@1.0.10
+1740 silly preinstall yargs@4.8.1
+1741 info lifecycle yargs@4.8.1~preinstall: yargs@4.8.1
+1742 silly preinstall window-size@0.2.0
+1743 info lifecycle window-size@0.2.0~preinstall: window-size@0.2.0
+1744 silly preinstall yargs-parser@2.4.1
+1745 info lifecycle yargs-parser@2.4.1~preinstall: yargs-parser@2.4.1
+1746 silly preinstall camelcase@3.0.0
+1747 info lifecycle camelcase@3.0.0~preinstall: camelcase@3.0.0
+1748 silly preinstall first-mate@7.3.0
+1749 info lifecycle first-mate@7.3.0~preinstall: first-mate@7.3.0
+1750 silly preinstall season@6.0.2
+1751 info lifecycle season@6.0.2~preinstall: season@6.0.2
+1752 silly preinstall yargs@3.32.0
+1753 info lifecycle yargs@3.32.0~preinstall: yargs@3.32.0
+1754 silly preinstall y18n@3.2.1
+1755 info lifecycle y18n@3.2.1~preinstall: y18n@3.2.1
+1756 silly preinstall fs-plus@3.1.1
+1757 info lifecycle fs-plus@3.1.1~preinstall: fs-plus@3.1.1
+1758 silly preinstall rimraf@2.6.3
+1759 info lifecycle rimraf@2.6.3~preinstall: rimraf@2.6.3
+1760 silly preinstall glob@7.1.4
+1761 info lifecycle glob@7.1.4~preinstall: glob@7.1.4
+1762 silly preinstall inflight@1.0.6
+1763 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+1764 silly preinstall once@1.4.0
+1765 info lifecycle once@1.4.0~preinstall: once@1.4.0
+1766 silly preinstall wrappy@1.0.2
+1767 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+1768 silly preinstall cliui@3.2.0
+1769 info lifecycle cliui@3.2.0~preinstall: cliui@3.2.0
+1770 silly preinstall wrap-ansi@2.1.0
+1771 info lifecycle wrap-ansi@2.1.0~preinstall: wrap-ansi@2.1.0
+1772 silly preinstall window-size@0.1.4
+1773 info lifecycle window-size@0.1.4~preinstall: window-size@0.1.4
+1774 silly preinstall which-module@1.0.0
+1775 info lifecycle which-module@1.0.0~preinstall: which-module@1.0.0
+1776 silly preinstall read-pkg-up@1.0.1
+1777 info lifecycle read-pkg-up@1.0.1~preinstall: read-pkg-up@1.0.1
+1778 silly preinstall read-pkg@1.1.0
+1779 info lifecycle read-pkg@1.1.0~preinstall: read-pkg@1.1.0
+1780 silly preinstall normalize-package-data@2.5.0
+1781 info lifecycle normalize-package-data@2.5.0~preinstall: normalize-package-data@2.5.0
+1782 silly preinstall validate-npm-package-license@3.0.4
+1783 info lifecycle validate-npm-package-license@3.0.4~preinstall: validate-npm-package-license@3.0.4
+1784 silly preinstall emissary@1.3.3
+1785 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+1786 silly preinstall underscore-plus@1.7.0
+1787 info lifecycle underscore-plus@1.7.0~preinstall: underscore-plus@1.7.0
+1788 silly preinstall underscore@1.9.1
+1789 info lifecycle underscore@1.9.1~preinstall: underscore@1.9.1
+1790 silly preinstall linkify-it@2.1.0
+1791 info lifecycle linkify-it@2.1.0~preinstall: linkify-it@2.1.0
+1792 silly preinstall uc.micro@1.0.6
+1793 info lifecycle uc.micro@1.0.6~preinstall: uc.micro@1.0.6
+1794 silly preinstall rimraf@2.2.8
+1795 info lifecycle rimraf@2.2.8~preinstall: rimraf@2.2.8
+1796 silly preinstall load-json-file@1.1.0
+1797 info lifecycle load-json-file@1.1.0~preinstall: load-json-file@1.1.0
+1798 silly preinstall strip-bom@2.0.0
+1799 info lifecycle strip-bom@2.0.0~preinstall: strip-bom@2.0.0
+1800 silly preinstall string-width@1.0.2
+1801 info lifecycle string-width@1.0.2~preinstall: string-width@1.0.2
+1802 silly preinstall strip-ansi@3.0.1
+1803 info lifecycle strip-ansi@3.0.1~preinstall: strip-ansi@3.0.1
+1804 silly preinstall argparse@1.0.10
+1805 info lifecycle argparse@1.0.10~preinstall: argparse@1.0.10
+1806 silly preinstall sprintf-js@1.0.3
+1807 info lifecycle sprintf-js@1.0.3~preinstall: sprintf-js@1.0.3
+1808 silly preinstall spdx-correct@3.1.0
+1809 info lifecycle spdx-correct@3.1.0~preinstall: spdx-correct@3.1.0
+1810 silly preinstall spdx-expression-parse@3.0.0
+1811 info lifecycle spdx-expression-parse@3.0.0~preinstall: spdx-expression-parse@3.0.0
+1812 silly preinstall spdx-license-ids@3.0.4
+1813 info lifecycle spdx-license-ids@3.0.4~preinstall: spdx-license-ids@3.0.4
+1814 silly preinstall spdx-exceptions@2.2.0
+1815 info lifecycle spdx-exceptions@2.2.0~preinstall: spdx-exceptions@2.2.0
+1816 silly preinstall set-blocking@2.0.0
+1817 info lifecycle set-blocking@2.0.0~preinstall: set-blocking@2.0.0
+1818 silly preinstall semver@5.7.0
+1819 info lifecycle semver@5.7.0~preinstall: semver@5.7.0
+1820 silly preinstall resolve@1.11.1
+1821 info lifecycle resolve@1.11.1~preinstall: resolve@1.11.1
+1822 silly preinstall require-main-filename@1.0.1
+1823 info lifecycle require-main-filename@1.0.1~preinstall: require-main-filename@1.0.1
+1824 silly preinstall require-directory@2.1.1
+1825 info lifecycle require-directory@2.1.1~preinstall: require-directory@2.1.1
+1826 silly preinstall property-accessors@1.1.3
+1827 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+1828 silly preinstall path-type@1.1.0
+1829 info lifecycle path-type@1.1.0~preinstall: path-type@1.1.0
+1830 silly preinstall find-up@1.1.2
+1831 info lifecycle find-up@1.1.2~preinstall: find-up@1.1.2
+1832 silly preinstall path-exists@2.1.0
+1833 info lifecycle path-exists@2.1.0~preinstall: path-exists@2.1.0
+1834 silly preinstall pinkie-promise@2.0.1
+1835 info lifecycle pinkie-promise@2.0.1~preinstall: pinkie-promise@2.0.1
+1836 silly preinstall pinkie@2.0.4
+1837 info lifecycle pinkie@2.0.4~preinstall: pinkie@2.0.4
+1838 timing action:preinstall Completed in 13ms
+1839 silly doSerial build 840
+1840 silly build ansi-regex@2.1.1
+1841 info linkStuff ansi-regex@2.1.1
+1842 silly linkStuff ansi-regex@2.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1843 silly build async@1.5.2
+1844 info linkStuff async@1.5.2
+1845 silly linkStuff async@1.5.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1846 silly build balanced-match@1.0.0
+1847 info linkStuff balanced-match@1.0.0
+1848 silly linkStuff balanced-match@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1849 silly build camelcase@2.1.1
+1850 info linkStuff camelcase@2.1.1
+1851 silly linkStuff camelcase@2.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1852 silly build code-point-at@1.1.0
+1853 info linkStuff code-point-at@1.1.0
+1854 silly linkStuff code-point-at@1.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1855 silly build coffee-script@1.12.7
+1856 info linkStuff coffee-script@1.12.7
+1857 silly linkStuff coffee-script@1.12.7 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1858 verbose linkBins [ { coffee: './bin/coffee', cake: './bin/cake' },
+1858 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+1858 verbose linkBins   false ]
+1859 silly build concat-map@0.0.1
+1860 info linkStuff concat-map@0.0.1
+1861 silly linkStuff concat-map@0.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1862 silly build brace-expansion@1.1.11
+1863 info linkStuff brace-expansion@1.1.11
+1864 silly linkStuff brace-expansion@1.1.11 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1865 silly build cson-parser@1.3.5
+1866 info linkStuff cson-parser@1.3.5
+1867 silly linkStuff cson-parser@1.3.5 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1868 silly build decamelize@1.2.0
+1869 info linkStuff decamelize@1.2.0
+1870 silly linkStuff decamelize@1.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1871 silly build entities@1.1.2
+1872 info linkStuff entities@1.1.2
+1873 silly linkStuff entities@1.1.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1874 silly build event-kit@2.5.3
+1875 info linkStuff event-kit@2.5.3
+1876 silly linkStuff event-kit@2.5.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1877 silly build fs.realpath@1.0.0
+1878 info linkStuff fs.realpath@1.0.0
+1879 silly linkStuff fs.realpath@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1880 silly build get-caller-file@1.0.3
+1881 info linkStuff get-caller-file@1.0.3
+1882 silly linkStuff get-caller-file@1.0.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1883 silly build graceful-fs@4.1.15
+1884 info linkStuff graceful-fs@4.1.15
+1885 silly linkStuff graceful-fs@4.1.15 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1886 silly build grim@2.0.2
+1887 info linkStuff grim@2.0.2
+1888 silly linkStuff grim@2.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1889 silly build hosted-git-info@2.7.1
+1890 info linkStuff hosted-git-info@2.7.1
+1891 silly linkStuff hosted-git-info@2.7.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1892 silly build inherits@2.0.3
+1893 info linkStuff inherits@2.0.3
+1894 silly linkStuff inherits@2.0.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1895 silly build invert-kv@1.0.0
+1896 info linkStuff invert-kv@1.0.0
+1897 silly linkStuff invert-kv@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1898 silly build is-arrayish@0.2.1
+1899 info linkStuff is-arrayish@0.2.1
+1900 silly linkStuff is-arrayish@0.2.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1901 silly build error-ex@1.3.2
+1902 info linkStuff error-ex@1.3.2
+1903 silly linkStuff error-ex@1.3.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1904 silly build is-utf8@0.2.1
+1905 info linkStuff is-utf8@0.2.1
+1906 silly linkStuff is-utf8@0.2.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1907 silly build lcid@1.0.0
+1908 info linkStuff lcid@1.0.0
+1909 silly linkStuff lcid@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1910 silly build lodash@4.17.11
+1911 info linkStuff lodash@4.17.11
+1912 silly linkStuff lodash@4.17.11 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1913 silly build first-mate-select-grammar@1.0.2
+1914 info linkStuff first-mate-select-grammar@1.0.2
+1915 silly linkStuff first-mate-select-grammar@1.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1916 silly build lodash.assign@4.2.0
+1917 info linkStuff lodash.assign@4.2.0
+1918 silly linkStuff lodash.assign@4.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1919 silly build mdurl@1.0.1
+1920 info linkStuff mdurl@1.0.1
+1921 silly linkStuff mdurl@1.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1922 silly build minimatch@3.0.4
+1923 info linkStuff minimatch@3.0.4
+1924 silly linkStuff minimatch@3.0.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1925 silly build minimist@0.0.8
+1926 info linkStuff minimist@0.0.8
+1927 silly linkStuff minimist@0.0.8 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1928 silly build mixto@1.0.0
+1929 info linkStuff mixto@1.0.0
+1930 silly linkStuff mixto@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1931 silly build mkdirp@0.5.1
+1932 info linkStuff mkdirp@0.5.1
+1933 silly linkStuff mkdirp@0.5.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1934 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+1934 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+1934 verbose linkBins   false ]
+1935 silly build nan@2.14.0
+1936 info linkStuff nan@2.14.0
+1937 silly linkStuff nan@2.14.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1938 silly build next-tick@1.0.0
+1939 info linkStuff next-tick@1.0.0
+1940 silly linkStuff next-tick@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1941 silly build es5-ext@0.10.50
+1942 info linkStuff es5-ext@0.10.50
+1943 silly linkStuff es5-ext@0.10.50 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1944 silly build d@0.1.1
+1945 info linkStuff d@0.1.1
+1946 silly linkStuff d@0.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1947 silly build d@1.0.0
+1948 info linkStuff d@1.0.0
+1949 silly linkStuff d@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules as its parent node_modules
+1950 silly build es6-symbol@3.1.1
+1951 info linkStuff es6-symbol@3.1.1
+1952 silly linkStuff es6-symbol@3.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules as its parent node_modules
+1953 silly build es6-iterator@2.0.3
+1954 info linkStuff es6-iterator@2.0.3
+1955 silly linkStuff es6-iterator@2.0.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/es5-ext/node_modules as its parent node_modules
+1956 silly build es6-symbol@2.0.1
+1957 info linkStuff es6-symbol@2.0.1
+1958 silly linkStuff es6-symbol@2.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1959 silly build es6-iterator@0.1.3
+1960 info linkStuff es6-iterator@0.1.3
+1961 silly linkStuff es6-iterator@0.1.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1962 silly build es6-weak-map@0.1.4
+1963 info linkStuff es6-weak-map@0.1.4
+1964 silly linkStuff es6-weak-map@0.1.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1965 silly build number-is-nan@1.0.1
+1966 info linkStuff number-is-nan@1.0.1
+1967 silly linkStuff number-is-nan@1.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1968 silly build is-fullwidth-code-point@1.0.0
+1969 info linkStuff is-fullwidth-code-point@1.0.0
+1970 silly linkStuff is-fullwidth-code-point@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1971 silly build oniguruma@7.1.0
+1972 info linkStuff oniguruma@7.1.0
+1973 silly linkStuff oniguruma@7.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1974 silly build os-locale@1.4.0
+1975 info linkStuff os-locale@1.4.0
+1976 silly linkStuff os-locale@1.4.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1977 silly build os-tmpdir@1.0.2
+1978 info linkStuff os-tmpdir@1.0.2
+1979 silly linkStuff os-tmpdir@1.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1980 silly build parse-json@2.2.0
+1981 info linkStuff parse-json@2.2.0
+1982 silly linkStuff parse-json@2.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1983 silly build path-is-absolute@1.0.1
+1984 info linkStuff path-is-absolute@1.0.1
+1985 silly linkStuff path-is-absolute@1.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1986 silly build path-parse@1.0.6
+1987 info linkStuff path-parse@1.0.6
+1988 silly linkStuff path-parse@1.0.6 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1989 silly build pify@2.3.0
+1990 info linkStuff pify@2.3.0
+1991 silly linkStuff pify@2.3.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1992 silly build pinkie@2.0.4
+1993 info linkStuff pinkie@2.0.4
+1994 silly linkStuff pinkie@2.0.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1995 silly build pinkie-promise@2.0.1
+1996 info linkStuff pinkie-promise@2.0.1
+1997 silly linkStuff pinkie-promise@2.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+1998 silly build path-exists@2.1.0
+1999 info linkStuff path-exists@2.1.0
+2000 silly linkStuff path-exists@2.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2001 silly build find-up@1.1.2
+2002 info linkStuff find-up@1.1.2
+2003 silly linkStuff find-up@1.1.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2004 silly build path-type@1.1.0
+2005 info linkStuff path-type@1.1.0
+2006 silly linkStuff path-type@1.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2007 silly build property-accessors@1.1.3
+2008 info linkStuff property-accessors@1.1.3
+2009 silly linkStuff property-accessors@1.1.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2010 silly build require-directory@2.1.1
+2011 info linkStuff require-directory@2.1.1
+2012 silly linkStuff require-directory@2.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2013 silly build require-main-filename@1.0.1
+2014 info linkStuff require-main-filename@1.0.1
+2015 silly linkStuff require-main-filename@1.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2016 silly build resolve@1.11.1
+2017 info linkStuff resolve@1.11.1
+2018 silly linkStuff resolve@1.11.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2019 silly build semver@5.7.0
+2020 info linkStuff semver@5.7.0
+2021 silly linkStuff semver@5.7.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2022 verbose linkBins [ { semver: './bin/semver' },
+2022 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2022 verbose linkBins   false ]
+2023 silly build set-blocking@2.0.0
+2024 info linkStuff set-blocking@2.0.0
+2025 silly linkStuff set-blocking@2.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2026 silly build spdx-exceptions@2.2.0
+2027 info linkStuff spdx-exceptions@2.2.0
+2028 silly linkStuff spdx-exceptions@2.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2029 silly build spdx-license-ids@3.0.4
+2030 info linkStuff spdx-license-ids@3.0.4
+2031 silly linkStuff spdx-license-ids@3.0.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2032 silly build spdx-expression-parse@3.0.0
+2033 info linkStuff spdx-expression-parse@3.0.0
+2034 silly linkStuff spdx-expression-parse@3.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2035 silly build spdx-correct@3.1.0
+2036 info linkStuff spdx-correct@3.1.0
+2037 silly linkStuff spdx-correct@3.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2038 silly build sprintf-js@1.0.3
+2039 info linkStuff sprintf-js@1.0.3
+2040 silly linkStuff sprintf-js@1.0.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2041 silly build argparse@1.0.10
+2042 info linkStuff argparse@1.0.10
+2043 silly linkStuff argparse@1.0.10 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2044 silly build strip-ansi@3.0.1
+2045 info linkStuff strip-ansi@3.0.1
+2046 silly linkStuff strip-ansi@3.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2047 silly build string-width@1.0.2
+2048 info linkStuff string-width@1.0.2
+2049 silly linkStuff string-width@1.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2050 silly build strip-bom@2.0.0
+2051 info linkStuff strip-bom@2.0.0
+2052 silly linkStuff strip-bom@2.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2053 silly build load-json-file@1.1.0
+2054 info linkStuff load-json-file@1.1.0
+2055 silly linkStuff load-json-file@1.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2056 silly build rimraf@2.2.8
+2057 info linkStuff rimraf@2.2.8
+2058 silly linkStuff rimraf@2.2.8 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp/node_modules as its parent node_modules
+2059 verbose linkBins [ { rimraf: './bin.js' },
+2059 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/temp/node_modules/.bin',
+2059 verbose linkBins   false ]
+2060 silly build uc.micro@1.0.6
+2061 info linkStuff uc.micro@1.0.6
+2062 silly linkStuff uc.micro@1.0.6 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2063 silly build linkify-it@2.1.0
+2064 info linkStuff linkify-it@2.1.0
+2065 silly linkStuff linkify-it@2.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2066 silly build underscore@1.9.1
+2067 info linkStuff underscore@1.9.1
+2068 silly linkStuff underscore@1.9.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2069 silly build underscore-plus@1.7.0
+2070 info linkStuff underscore-plus@1.7.0
+2071 silly linkStuff underscore-plus@1.7.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2072 silly build emissary@1.3.3
+2073 info linkStuff emissary@1.3.3
+2074 silly linkStuff emissary@1.3.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2075 silly build validate-npm-package-license@3.0.4
+2076 info linkStuff validate-npm-package-license@3.0.4
+2077 silly linkStuff validate-npm-package-license@3.0.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2078 silly build normalize-package-data@2.5.0
+2079 info linkStuff normalize-package-data@2.5.0
+2080 silly linkStuff normalize-package-data@2.5.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2081 silly build read-pkg@1.1.0
+2082 info linkStuff read-pkg@1.1.0
+2083 silly linkStuff read-pkg@1.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2084 silly build read-pkg-up@1.0.1
+2085 info linkStuff read-pkg-up@1.0.1
+2086 silly linkStuff read-pkg-up@1.0.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2087 silly build which-module@1.0.0
+2088 info linkStuff which-module@1.0.0
+2089 silly linkStuff which-module@1.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2090 silly build window-size@0.1.4
+2091 info linkStuff window-size@0.1.4
+2092 silly linkStuff window-size@0.1.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2093 verbose linkBins [ { 'window-size': 'cli.js' },
+2093 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2093 verbose linkBins   false ]
+2094 silly build wrap-ansi@2.1.0
+2095 info linkStuff wrap-ansi@2.1.0
+2096 silly linkStuff wrap-ansi@2.1.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2097 silly build cliui@3.2.0
+2098 info linkStuff cliui@3.2.0
+2099 silly linkStuff cliui@3.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2100 silly build wrappy@1.0.2
+2101 info linkStuff wrappy@1.0.2
+2102 silly linkStuff wrappy@1.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2103 silly build once@1.4.0
+2104 info linkStuff once@1.4.0
+2105 silly linkStuff once@1.4.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2106 silly build inflight@1.0.6
+2107 info linkStuff inflight@1.0.6
+2108 silly linkStuff inflight@1.0.6 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2109 silly build glob@7.1.4
+2110 info linkStuff glob@7.1.4
+2111 silly linkStuff glob@7.1.4 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2112 silly build rimraf@2.6.3
+2113 info linkStuff rimraf@2.6.3
+2114 silly linkStuff rimraf@2.6.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2115 verbose linkBins [ { rimraf: './bin.js' },
+2115 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2115 verbose linkBins   false ]
+2116 silly build fs-plus@3.1.1
+2117 info linkStuff fs-plus@3.1.1
+2118 silly linkStuff fs-plus@3.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2119 silly build y18n@3.2.1
+2120 info linkStuff y18n@3.2.1
+2121 silly linkStuff y18n@3.2.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2122 silly build yargs@3.32.0
+2123 info linkStuff yargs@3.32.0
+2124 silly linkStuff yargs@3.32.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/season/node_modules as its parent node_modules
+2125 silly build season@6.0.2
+2126 info linkStuff season@6.0.2
+2127 silly linkStuff season@6.0.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2128 verbose linkBins [ { csonc: './bin/csonc' },
+2128 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2128 verbose linkBins   false ]
+2129 silly build first-mate@7.3.0
+2130 info linkStuff first-mate@7.3.0
+2131 silly linkStuff first-mate@7.3.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2132 silly build camelcase@3.0.0
+2133 info linkStuff camelcase@3.0.0
+2134 silly linkStuff camelcase@3.0.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs-parser/node_modules as its parent node_modules
+2135 silly build yargs-parser@2.4.1
+2136 info linkStuff yargs-parser@2.4.1
+2137 silly linkStuff yargs-parser@2.4.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2138 silly build window-size@0.2.0
+2139 info linkStuff window-size@0.2.0
+2140 silly linkStuff window-size@0.2.0 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs/node_modules as its parent node_modules
+2141 verbose linkBins [ { 'window-size': 'cli.js' },
+2141 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/yargs/node_modules/.bin',
+2141 verbose linkBins   false ]
+2142 silly build yargs@4.8.1
+2143 info linkStuff yargs@4.8.1
+2144 silly linkStuff yargs@4.8.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2145 silly build dompurify@1.0.10
+2146 info linkStuff dompurify@1.0.10
+2147 silly linkStuff dompurify@1.0.10 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2148 silly build highlights@3.1.1
+2149 info linkStuff highlights@3.1.1
+2150 silly linkStuff highlights@3.1.1 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2151 verbose linkBins [ { highlights: 'bin/highlights' },
+2151 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2151 verbose linkBins   false ]
+2152 silly build markdown-it@8.4.2
+2153 info linkStuff markdown-it@8.4.2
+2154 silly linkStuff markdown-it@8.4.2 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2155 verbose linkBins [ { 'markdown-it': 'bin/markdown-it.js' },
+2155 verbose linkBins   '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin',
+2155 verbose linkBins   false ]
+2156 silly build temp@0.8.3
+2157 info linkStuff temp@0.8.3
+2158 silly linkStuff temp@0.8.3 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2159 silly build wrench@1.5.9
+2160 info linkStuff wrench@1.5.9
+2161 silly linkStuff wrench@1.5.9 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules as its parent node_modules
+2162 silly build markdown-it-preview@0.2.5
+2163 info linkStuff markdown-it-preview@0.2.5
+2164 silly linkStuff markdown-it-preview@0.2.5 has /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules as its parent node_modules
+2165 timing action:build Completed in 39ms
+2166 silly doSerial global-link 840
+2167 silly doParallel update-linked 0
+2168 silly doSerial install 840
+2169 silly install ansi-regex@2.1.1
+2170 info lifecycle ansi-regex@2.1.1~install: ansi-regex@2.1.1
+2171 silly install async@1.5.2
+2172 info lifecycle async@1.5.2~install: async@1.5.2
+2173 silly install balanced-match@1.0.0
+2174 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+2175 silly install camelcase@2.1.1
+2176 info lifecycle camelcase@2.1.1~install: camelcase@2.1.1
+2177 silly install code-point-at@1.1.0
+2178 info lifecycle code-point-at@1.1.0~install: code-point-at@1.1.0
+2179 silly install coffee-script@1.12.7
+2180 info lifecycle coffee-script@1.12.7~install: coffee-script@1.12.7
+2181 silly install concat-map@0.0.1
+2182 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+2183 silly install brace-expansion@1.1.11
+2184 info lifecycle brace-expansion@1.1.11~install: brace-expansion@1.1.11
+2185 silly install cson-parser@1.3.5
+2186 info lifecycle cson-parser@1.3.5~install: cson-parser@1.3.5
+2187 silly install decamelize@1.2.0
+2188 info lifecycle decamelize@1.2.0~install: decamelize@1.2.0
+2189 silly install entities@1.1.2
+2190 info lifecycle entities@1.1.2~install: entities@1.1.2
+2191 silly install event-kit@2.5.3
+2192 info lifecycle event-kit@2.5.3~install: event-kit@2.5.3
+2193 silly install fs.realpath@1.0.0
+2194 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+2195 silly install get-caller-file@1.0.3
+2196 info lifecycle get-caller-file@1.0.3~install: get-caller-file@1.0.3
+2197 silly install graceful-fs@4.1.15
+2198 info lifecycle graceful-fs@4.1.15~install: graceful-fs@4.1.15
+2199 silly install grim@2.0.2
+2200 info lifecycle grim@2.0.2~install: grim@2.0.2
+2201 silly install hosted-git-info@2.7.1
+2202 info lifecycle hosted-git-info@2.7.1~install: hosted-git-info@2.7.1
+2203 silly install inherits@2.0.3
+2204 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+2205 silly install invert-kv@1.0.0
+2206 info lifecycle invert-kv@1.0.0~install: invert-kv@1.0.0
+2207 silly install is-arrayish@0.2.1
+2208 info lifecycle is-arrayish@0.2.1~install: is-arrayish@0.2.1
+2209 silly install error-ex@1.3.2
+2210 info lifecycle error-ex@1.3.2~install: error-ex@1.3.2
+2211 silly install is-utf8@0.2.1
+2212 info lifecycle is-utf8@0.2.1~install: is-utf8@0.2.1
+2213 silly install lcid@1.0.0
+2214 info lifecycle lcid@1.0.0~install: lcid@1.0.0
+2215 silly install lodash@4.17.11
+2216 info lifecycle lodash@4.17.11~install: lodash@4.17.11
+2217 silly install first-mate-select-grammar@1.0.2
+2218 info lifecycle first-mate-select-grammar@1.0.2~install: first-mate-select-grammar@1.0.2
+2219 silly install lodash.assign@4.2.0
+2220 info lifecycle lodash.assign@4.2.0~install: lodash.assign@4.2.0
+2221 silly install mdurl@1.0.1
+2222 info lifecycle mdurl@1.0.1~install: mdurl@1.0.1
+2223 silly install minimatch@3.0.4
+2224 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+2225 silly install minimist@0.0.8
+2226 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+2227 silly install mixto@1.0.0
+2228 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+2229 silly install mkdirp@0.5.1
+2230 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+2231 silly install nan@2.14.0
+2232 info lifecycle nan@2.14.0~install: nan@2.14.0
+2233 silly install next-tick@1.0.0
+2234 info lifecycle next-tick@1.0.0~install: next-tick@1.0.0
+2235 silly install es5-ext@0.10.50
+2236 info lifecycle es5-ext@0.10.50~install: es5-ext@0.10.50
+2237 silly install d@0.1.1
+2238 info lifecycle d@0.1.1~install: d@0.1.1
+2239 silly install d@1.0.0
+2240 info lifecycle d@1.0.0~install: d@1.0.0
+2241 silly install es6-symbol@3.1.1
+2242 info lifecycle es6-symbol@3.1.1~install: es6-symbol@3.1.1
+2243 silly install es6-iterator@2.0.3
+2244 info lifecycle es6-iterator@2.0.3~install: es6-iterator@2.0.3
+2245 silly install es6-symbol@2.0.1
+2246 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+2247 silly install es6-iterator@0.1.3
+2248 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+2249 silly install es6-weak-map@0.1.4
+2250 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+2251 silly install number-is-nan@1.0.1
+2252 info lifecycle number-is-nan@1.0.1~install: number-is-nan@1.0.1
+2253 silly install is-fullwidth-code-point@1.0.0
+2254 info lifecycle is-fullwidth-code-point@1.0.0~install: is-fullwidth-code-point@1.0.0
+2255 silly install oniguruma@7.1.0
+2256 info lifecycle oniguruma@7.1.0~install: oniguruma@7.1.0
+2257 verbose lifecycle oniguruma@7.1.0~install: unsafe-perm in lifecycle true
+2258 verbose lifecycle oniguruma@7.1.0~install: PATH: /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/oniguruma/node_modules/.bin:/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/.bin:/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/.bin:/Applications/Atom.app/Contents/Resources/app/apm/bin:/Users/hotman/.rbenv/shims:/Users/hotman/android-sdks/platform-tools:/usr/local/apache-ant-1.10.5/bin:/Users/hotman/.pyenv/shims:/usr/local/mecab/bin:/Users/hotman/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/hotman/.rbenv/shims:/Users/hotman/android-sdks/platform-tools:/usr/local/apache-ant-1.10.5/bin:/Users/hotman/.pyenv/shims:/usr/local/mecab/bin:/Users/hotman/.pyenv/bin
+2259 verbose lifecycle oniguruma@7.1.0~install: CWD: /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/markdown-it-preview/node_modules/oniguruma
+2260 silly lifecycle oniguruma@7.1.0~install: Args: [ '-c', 'node-gyp rebuild' ]
+2261 silly lifecycle oniguruma@7.1.0~install: Returned: code: 1  signal: null
+2262 info lifecycle oniguruma@7.1.0~install: Failed to exec install script
+2263 timing action:install Completed in 727ms
+2264 verbose unlock done using /Users/hotman/.atom/.apm/_locks/staging-0e3381c9388cabed.lock for /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/node_modules/.staging
+2265 timing stage:rollbackFailedOptional Completed in 578ms
+2266 timing stage:runTopLevelLifecycles Completed in 10515ms
+2267 silly saveTree apm-install-dir-11955-15218-1672uua.g1s1
+2267 silly saveTree `-- markdown-it-preview@0.2.5
+2267 silly saveTree   +-- dompurify@1.0.10
+2267 silly saveTree   +-- fs-plus@3.1.1
+2267 silly saveTree   | +-- async@1.5.2
+2267 silly saveTree   | +-- mkdirp@0.5.1
+2267 silly saveTree   | | `-- minimist@0.0.8
+2267 silly saveTree   | +-- rimraf@2.6.3
+2267 silly saveTree   | | `-- glob@7.1.4
+2267 silly saveTree   | |   +-- fs.realpath@1.0.0
+2267 silly saveTree   | |   +-- inflight@1.0.6
+2267 silly saveTree   | |   | +-- once@1.4.0
+2267 silly saveTree   | |   | | `-- wrappy@1.0.2
+2267 silly saveTree   | |   | `-- wrappy@1.0.2
+2267 silly saveTree   | |   +-- inherits@2.0.3
+2267 silly saveTree   | |   +-- minimatch@3.0.4
+2267 silly saveTree   | |   | `-- brace-expansion@1.1.11
+2267 silly saveTree   | |   |   +-- balanced-match@1.0.0
+2267 silly saveTree   | |   |   `-- concat-map@0.0.1
+2267 silly saveTree   | |   +-- once@1.4.0
+2267 silly saveTree   | |   `-- path-is-absolute@1.0.1
+2267 silly saveTree   | `-- underscore-plus@1.7.0
+2267 silly saveTree   |   `-- underscore@1.9.1
+2267 silly saveTree   +-- highlights@3.1.1
+2267 silly saveTree   | +-- first-mate-select-grammar@1.0.2
+2267 silly saveTree   | | `-- lodash@4.17.11
+2267 silly saveTree   | +-- first-mate@7.3.0
+2267 silly saveTree   | | +-- emissary@1.3.3
+2267 silly saveTree   | | | +-- es6-weak-map@0.1.4
+2267 silly saveTree   | | | | +-- d@0.1.1
+2267 silly saveTree   | | | | | `-- es5-ext@0.10.50
+2267 silly saveTree   | | | | |   +-- es6-iterator@2.0.3
+2267 silly saveTree   | | | | |   | +-- d@1.0.0
+2267 silly saveTree   | | | | |   | `-- es6-symbol@3.1.1
+2267 silly saveTree   | | | | |   +-- es6-symbol@3.1.1
+2267 silly saveTree   | | | | |   `-- next-tick@1.0.0
+2267 silly saveTree   | | | | +-- es5-ext@0.10.50
+2267 silly saveTree   | | | | +-- es6-iterator@0.1.3
+2267 silly saveTree   | | | | | `-- es6-symbol@2.0.1
+2267 silly saveTree   | | | | `-- es6-symbol@2.0.1
+2267 silly saveTree   | | | +-- mixto@1.0.0
+2267 silly saveTree   | | | `-- property-accessors@1.1.3
+2267 silly saveTree   | | +-- event-kit@2.5.3
+2267 silly saveTree   | | +-- grim@2.0.2
+2267 silly saveTree   | | +-- oniguruma@7.1.0
+2267 silly saveTree   | | | `-- nan@2.14.0
+2267 silly saveTree   | | `-- season@6.0.2
+2267 silly saveTree   | |   +-- cson-parser@1.3.5
+2267 silly saveTree   | |   | `-- coffee-script@1.12.7
+2267 silly saveTree   | |   `-- yargs@3.32.0
+2267 silly saveTree   | |     +-- camelcase@2.1.1
+2267 silly saveTree   | |     +-- cliui@3.2.0
+2267 silly saveTree   | |     | +-- string-width@1.0.2
+2267 silly saveTree   | |     | | +-- code-point-at@1.1.0
+2267 silly saveTree   | |     | | +-- is-fullwidth-code-point@1.0.0
+2267 silly saveTree   | |     | | | `-- number-is-nan@1.0.1
+2267 silly saveTree   | |     | | `-- strip-ansi@3.0.1
+2267 silly saveTree   | |     | |   `-- ansi-regex@2.1.1
+2267 silly saveTree   | |     | +-- strip-ansi@3.0.1
+2267 silly saveTree   | |     | `-- wrap-ansi@2.1.0
+2267 silly saveTree   | |     +-- decamelize@1.2.0
+2267 silly saveTree   | |     +-- os-locale@1.4.0
+2267 silly saveTree   | |     | `-- lcid@1.0.0
+2267 silly saveTree   | |     |   `-- invert-kv@1.0.0
+2267 silly saveTree   | |     +-- string-width@1.0.2
+2267 silly saveTree   | |     +-- window-size@0.1.4
+2267 silly saveTree   | |     `-- y18n@3.2.1
+2267 silly saveTree   | +-- season@6.0.2
+2267 silly saveTree   | `-- yargs@4.8.1
+2267 silly saveTree   |   +-- get-caller-file@1.0.3
+2267 silly saveTree   |   +-- lodash.assign@4.2.0
+2267 silly saveTree   |   +-- read-pkg-up@1.0.1
+2267 silly saveTree   |   | +-- find-up@1.1.2
+2267 silly saveTree   |   | | +-- path-exists@2.1.0
+2267 silly saveTree   |   | | | `-- pinkie-promise@2.0.1
+2267 silly saveTree   |   | | |   `-- pinkie@2.0.4
+2267 silly saveTree   |   | | `-- pinkie-promise@2.0.1
+2267 silly saveTree   |   | `-- read-pkg@1.1.0
+2267 silly saveTree   |   |   +-- load-json-file@1.1.0
+2267 silly saveTree   |   |   | +-- graceful-fs@4.1.15
+2267 silly saveTree   |   |   | +-- parse-json@2.2.0
+2267 silly saveTree   |   |   | | `-- error-ex@1.3.2
+2267 silly saveTree   |   |   | |   `-- is-arrayish@0.2.1
+2267 silly saveTree   |   |   | +-- pify@2.3.0
+2267 silly saveTree   |   |   | `-- strip-bom@2.0.0
+2267 silly saveTree   |   |   |   `-- is-utf8@0.2.1
+2267 silly saveTree   |   |   +-- normalize-package-data@2.5.0
+2267 silly saveTree   |   |   | +-- hosted-git-info@2.7.1
+2267 silly saveTree   |   |   | +-- resolve@1.11.1
+2267 silly saveTree   |   |   | | `-- path-parse@1.0.6
+2267 silly saveTree   |   |   | +-- semver@5.7.0
+2267 silly saveTree   |   |   | `-- validate-npm-package-license@3.0.4
+2267 silly saveTree   |   |   |   +-- spdx-correct@3.1.0
+2267 silly saveTree   |   |   |   | +-- spdx-expression-parse@3.0.0
+2267 silly saveTree   |   |   |   | | +-- spdx-exceptions@2.2.0
+2267 silly saveTree   |   |   |   | | `-- spdx-license-ids@3.0.4
+2267 silly saveTree   |   |   |   | `-- spdx-license-ids@3.0.4
+2267 silly saveTree   |   |   |   `-- spdx-expression-parse@3.0.0
+2267 silly saveTree   |   |   `-- path-type@1.1.0
+2267 silly saveTree   |   +-- require-directory@2.1.1
+2267 silly saveTree   |   +-- require-main-filename@1.0.1
+2267 silly saveTree   |   +-- set-blocking@2.0.0
+2267 silly saveTree   |   +-- which-module@1.0.0
+2267 silly saveTree   |   +-- window-size@0.2.0
+2267 silly saveTree   |   `-- yargs-parser@2.4.1
+2267 silly saveTree   |     `-- camelcase@3.0.0
+2267 silly saveTree   +-- lodash@4.17.11
+2267 silly saveTree   +-- markdown-it@8.4.2
+2267 silly saveTree   | +-- argparse@1.0.10
+2267 silly saveTree   | | `-- sprintf-js@1.0.3
+2267 silly saveTree   | +-- entities@1.1.2
+2267 silly saveTree   | +-- linkify-it@2.1.0
+2267 silly saveTree   | | `-- uc.micro@1.0.6
+2267 silly saveTree   | +-- mdurl@1.0.1
+2267 silly saveTree   | `-- uc.micro@1.0.6
+2267 silly saveTree   +-- temp@0.8.3
+2267 silly saveTree   | +-- os-tmpdir@1.0.2
+2267 silly saveTree   | `-- rimraf@2.2.8
+2267 silly saveTree   `-- wrench@1.5.9
+2268 warn enoent ENOENT: no such file or directory, open '/private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1/package.json'
+2269 verbose enoent This is related to npm not being able to find a file.
+2270 warn apm-install-dir-11955-15218-1672uua.g1s1 No description
+2271 warn apm-install-dir-11955-15218-1672uua.g1s1 No repository field.
+2272 warn apm-install-dir-11955-15218-1672uua.g1s1 No README data
+2273 warn apm-install-dir-11955-15218-1672uua.g1s1 No license field.
+2274 verbose stack Error: oniguruma@7.1.0 install: `node-gyp rebuild`
+2274 verbose stack Exit status 1
+2274 verbose stack     at EventEmitter.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+2274 verbose stack     at emitTwo (events.js:126:13)
+2274 verbose stack     at EventEmitter.emit (events.js:214:7)
+2274 verbose stack     at ChildProcess.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+2274 verbose stack     at emitTwo (events.js:126:13)
+2274 verbose stack     at ChildProcess.emit (events.js:214:7)
+2274 verbose stack     at maybeClose (internal/child_process.js:925:16)
+2274 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+2275 verbose pkgid oniguruma@7.1.0
+2276 verbose cwd /private/var/folders/d0/54kdyz8n6p7gtn_l_1q69b4c0000gn/T/apm-install-dir-11955-15218-1672uua.g1s1
+2277 verbose Darwin 18.6.0
+2278 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/hotman/.atom/.apm/.apmrc" "--userconfig" "/Users/hotman/.atom/.apmrc" "install" "https://www.atom.io/api/packages/markdown-it-preview/versions/0.2.5/tarball" "--runtime=electron" "--target=2.0.18" "--dist-url=https://atom.io/download/electron" "--arch=x64" "--global-style"
+2279 verbose node v8.9.3
+2280 verbose npm  v6.2.0
+2281 error code ELIFECYCLE
+2282 error errno 1
+2283 error oniguruma@7.1.0 install: `node-gyp rebuild`
+2283 error Exit status 1
+2284 error Failed at the oniguruma@7.1.0 install script.
+2284 error This is probably not a problem with npm. There is likely additional logging output above.
+2285 verbose exit [ 1, true ]
