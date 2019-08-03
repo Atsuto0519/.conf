@@ -83,7 +83,6 @@
 (global-set-key (kbd "<M-down>")  'windmove-down)
 (global-set-key (kbd "<M-up>")    'windmove-up)
 (global-set-key (kbd "<M-right>") 'windmove-right)
-(global-set-key (kbd "C-e")       'end-of-line)
 
 
 ;; use-package
@@ -95,14 +94,15 @@
   (:map company-active-map
         ("M-n" . nil)
         ("M-p" . nil)
-        ("C-n" . company-select-next)
-        ("C-p" . company-select-previous)
+        ("C->" . company-select-next)
+        ("C-<" . company-select-previous)
         ("C-h" . nil))
   :config
   (global-company-mode))
 (use-package company-tabnine)
 (use-package company-reftex)
 (use-package company-bibtex)
+(use-package company-shell)
 
 ;;; yatex
 (use-package yatex)                ;; パッケージ読み込み
@@ -137,6 +137,7 @@
 ;;; \hypersetup{...} を出力しない
 (setq org-latex-with-hyperref nil)
 
+;;; LaTeX 形式へ変換するスタイル
 (add-to-list 'org-latex-classes
              '("thesis"
                "\\documentclass{jarticle}
@@ -149,6 +150,9 @@
                ("\\paragraph{%s}" . "\\paragraph*{%s}")
                ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
+;;; magit
+(use-package magit)
+(global-set-key (kbd "C-x g") 'magit-status)
 
 
 ;; HTTPS 系のリポジトリ
