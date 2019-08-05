@@ -200,3 +200,20 @@
 ;;; git-gutter+
 (use-package git-gutter+)
 (use-package git-gutter-fringe+)
+
+
+
+;; オリジナルコマンド
+(defun my-find-file-init-el ()
+  "init.elを開く"
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
+
+(defun my-backup-config (arg)
+  "emacs設定のバックアップコマンド"
+  (interactive "Dto backup directory name: ")
+
+  (straight-freeze-versions)
+  (shell-command (concat "cp -rf ~/.emacs.d " (format "%S" arg)))
+  (shell-command (concat "cp ~/.spacemacs " (concat (format "%S" arg) "/.spacemacs")))
+  (shell-command (concat "cp ~/.viminfo " (concat (format "%S" arg) "/.viminfo"))))
