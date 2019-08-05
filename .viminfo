@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1564649496,,"wq"
+|2,0,1564841930,,"wq"
 :q
 |2,0,1564649435,,"q"
 :w
@@ -30,34 +30,38 @@
 
 # Registers:
 ""-	CHAR	0
-	o
-|3,1,36,0,1,0,1564649487,"o"
+	e
+|3,1,36,0,1,0,1564841918,"e"
 
 # File marks:
-'0  1  2  ~/git_repository/confdir/.git/COMMIT_EDITMSG
-|4,48,1,2,1564649496,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
-'1  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
-|4,49,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+'0  1  24  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,48,1,24,1564841930,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+'1  1  2  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,49,1,2,1564649496,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
 '2  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
 |4,50,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
-'3  24  0  ~/.bash_profile
-|4,51,24,0,1564388402,"~/.bash_profile"
-'4  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,52,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
-'5  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,53,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
-'6  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,54,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
-'7  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,55,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
-'8  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,56,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
-'9  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,57,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
+'3  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,51,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+'4  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,52,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+'5  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,53,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+'6  24  0  ~/.bash_profile
+|4,54,24,0,1564388402,"~/.bash_profile"
+'7  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,55,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+'8  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,56,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+'9  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,57,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  1  24  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,39,1,24,1564841930,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
 -'  1  2  ~/git_repository/confdir/.git/COMMIT_EDITMSG
 |4,39,1,2,1564649496,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
+-'  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
+|4,39,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
 -'  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
 |4,39,2,0,1564649435,"~/git_repository/confdir/.git/COMMIT_EDITMSG"
 -'  2  0  ~/git_repository/confdir/.git/COMMIT_EDITMSG
@@ -72,6 +76,22 @@
 |4,39,24,0,1564388402,"~/.bash_profile"
 -'  24  0  ~/.bash_profile
 |4,39,24,0,1564388402,"~/.bash_profile"
+-'  24  0  ~/.bash_profile
+|4,39,24,0,1564388402,"~/.bash_profile"
+-'  24  0  ~/.bash_profile
+|4,39,24,0,1564388402,"~/.bash_profile"
+-'  24  0  ~/.bash_profile
+|4,39,24,0,1564388402,"~/.bash_profile"
+-'  24  0  ~/.bash_profile
+|4,39,24,0,1564388402,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1564388374,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1564388374,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1564388374,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1564388374,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
 |4,39,1,0,1564388374,"~/.bash_profile"
 -'  1  0  ~/.bash_profile
@@ -96,6 +116,38 @@
 |4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
 |4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  3  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,3,0,1564038728,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
 |4,39,1,0,1564038723,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
@@ -144,6 +196,38 @@
 |4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
 |4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
+-'  2  0  ~/git_repository/radio_english/.git/MERGE_MSG
+|4,39,2,0,1563964742,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
 |4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
@@ -160,111 +244,27 @@
 |4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
 |4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  7  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,7,0,1563964515,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 -'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  1  0  ~/git_repository/radio_english/.git/MERGE_MSG
-|4,39,1,0,1563964497,"~/git_repository/radio_english/.git/MERGE_MSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
--'  13  0  ~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG
-|4,39,13,0,1555382117,"~/git_repository/RaspRadiru/.git/COMMIT_EDITMSG"
+|4,39,1,0,1563964737,"~/git_repository/radio_english/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
 
 > ~/git_repository/confdir/.git/COMMIT_EDITMSG
-	*	1564649493	0
-	"	1	2
-	^	1	3
-	.	1	3
-	+	1	3
+	*	1564841926	0
+	"	1	24
+	^	1	25
+	.	1	25
+	+	1	25
 
 > ~/.bash_profile
 	*	1564388398	0

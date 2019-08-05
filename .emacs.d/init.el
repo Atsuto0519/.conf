@@ -55,6 +55,23 @@
 (setq straight-use-package-by-default t)
 
 
+;; HTTPS 系のリポジトリ
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+;; (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
+
+;; HTTP 系のリポジトリ
+(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(add-to-list 'package-archives '("ELPA" . "http://tromey.com/elpa/") t)
+
+;; marmalade　は HTTP アクセスすると証明書エラーでフリーズするので注意
+;; (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
+
+(package-initialize)
+
+
 (use-package markdown-mode)
 (autoload 'markdown-mode "markdown-mode"
   "Major mode for editing Markdown files" t)
@@ -150,24 +167,36 @@
                ("\\paragraph{%s}" . "\\paragraph*{%s}")
                ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
+(add-to-list 'org-latex-classes
+             '("proceeding"
+               "\\documentclass[10.5pt, aJ4]{jarticle}
+               [NO-PACKAGES]
+               [NO-DEFAULT-PACKAGES]\n
+\\makeatletter
+\\long\\def\\@makecaption#1#2{%
+  \\vskip\\abovecaptionskip  \\iftdir\\sbox\\@tempboxa{#1\\hskip1zw#2}%
+    \\else\\sbox\\@tempboxa{#1~ #2}%
+  \\fi
+  \\ifdim \\wd\\@tempboxa >\\hsize
+    \\iftdir #1\\hskip1zw#2\\relax\\par
+    \\else #1~ #2\\relax\\par\\fi
+  \\else
+  \\global \\@minipagefalse
+  \\hbox to\\hsize{\\hfil\\box\\@tempboxa\\hfil}%
+\\fi
+\\vskip\\belowcaptionskip}
+\\makeatother"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+
 ;;; magit
 (use-package magit)
 (global-set-key (kbd "C-x g") 'magit-status)
 
-
-;; HTTPS 系のリポジトリ
-;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-;; (add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-;; (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
-
-;; HTTP 系のリポジトリ
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'package-archives '("ELPA" . "http://tromey.com/elpa/") t)
-
-;; marmalade　は HTTP アクセスすると証明書エラーでフリーズするので注意
-;; (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
-
-(package-initialize)
-
+;;; git-gutter+
+(use-package git-gutter+)
+(use-package git-gutter-fringe+)
