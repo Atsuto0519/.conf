@@ -145,7 +145,7 @@
 (setq org-latex-pdf-process
       '("platex %f"
         "platex %f"
-        "bibtex %b"
+        "pbibtex %b"
         "platex %f"
         "platex %f"
         "dvipdfmx %b.dvi"
@@ -168,10 +168,12 @@
                ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
 
 (add-to-list 'org-latex-classes
-             '("proceeding"
+             '("report"
                "\\documentclass[10.5pt, aJ4]{jarticle}
                [NO-PACKAGES]
                [NO-DEFAULT-PACKAGES]\n
+\\usepackage{$HOME/.emacs.d/latex/fancyhdr}
+\\usepackage{$HOME/.emacs.d/latex/proceeding}
 \\makeatletter
 \\long\\def\\@makecaption#1#2{%
   \\vskip\\abovecaptionskip  \\iftdir\\sbox\\@tempboxa{#1\\hskip1zw#2}%
@@ -185,6 +187,16 @@
   \\hbox to\\hsize{\\hfil\\box\\@tempboxa\\hfil}%
 \\fi
 \\vskip\\belowcaptionskip}
+\\def\\WordCount#1{%
+  \\@tempcnta\\z@
+  \\@tfor \\@tempa:=#1\\do{\\ignorespaces \\advance\\@tempcnta\\@ne}%
+  #1
+  \\\\ \\hrulefill \\\\
+  \\vspace{-8mm}
+  \\begin{flushright}
+    {\\bfseries 文字数： \\the\\@tempcnta 文字}
+  \\end{flushright}
+}
 \\makeatother"
                ("\\section{%s}" . "\\section*{%s}")
                ("\\subsection{%s}" . "\\subsection*{%s}")
@@ -201,6 +213,27 @@
 (use-package git-gutter+)
 (use-package git-gutter-fringe+)
 
+;;; yaml
+(use-package yaml-mode)
+
+;;; yasnippet
+(add-to-list 'load-path
+             "~/.emacs.d/snippets")
+(use-package yasnippet)
+(require 'yasnippet)
+(setq yas-snippet-dirs
+      '("~/.emacs.d/mySnippets" 
+        "~/.emacs.d/snippets"
+        ))
+(shell-command "git clone --recursive https://github.com/joaotavora/yasnippet ~/.emacs.d/snippets")
+;;;; yas起動
+(yas-global-mode 1)
+;;;; 既存スニペットを挿入する
+(define-key yas-minor-mode-map (kbd "C-x i i") 'yas-insert-snippet)
+;;;; 新規スニペットを作成するバッファを用意する
+(define-key yas-minor-mode-map (kbd "C-x i n") 'yas-new-snippet)
+;;;; 既存スニペットを閲覧・編集する
+(define-key yas-minor-mode-map (kbd "C-x i v") 'yas-visit-snippet-file)
 
 
 ;; オリジナルコマンド
@@ -212,8 +245,18 @@
 (defun my-backup-config (arg)
   "emacs設定のバックアップコマンド"
   (interactive "Dto backup directory name: ")
-
   (straight-freeze-versions)
   (shell-command (concat "cp -rf ~/.emacs.d " (format "%S" arg)))
   (shell-command (concat "cp ~/.spacemacs " (concat (format "%S" arg) "/.spacemacs")))
   (shell-command (concat "cp ~/.viminfo " (concat (format "%S" arg) "/.viminfo"))))
+
+(defun my-file-exists-p (arg)
+  "ファイルが存在するか確認"
+  (interactive "Ffile name: ")
+  (message (format "%S" arg))
+  (print (file-exists-p (format "%S" arg))))
+
+(defun my-command (arg)
+  "コマンドを呼び出す関数"
+  (interactive "Srun command: ")
+  (shell-command "%S" arg))

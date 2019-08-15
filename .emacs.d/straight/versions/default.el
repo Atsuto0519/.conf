@@ -24,5 +24,7 @@
  ("unicode-escape.el" . "fc69ec780d9e54c364a9252bd0cf1d2507f3fab7")
  ("use-package" . "1d5ffb2e0d1427066ced58febbba68c1328bf001")
  ("with-editor" . "45c29f9bfb7f2df93426ce1571e2f4f41ed4e492")
+ ("yaml-mode" . "5b4a0db384f996554454b5642e4531c502421de8")
+ ("yasnippet" . "d91dd66f2aed9bbaef32813a68b105ea77e83890")
  ("yatex" . "84f3ba5e6981e0774049cf2861c0928c8758b6af"))
 :pluto
